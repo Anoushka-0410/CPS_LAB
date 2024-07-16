@@ -1,0 +1,30 @@
+.rf {
+  /* Set a width for the container if needed */
+  width: 100%; /* Adjust as needed */
+  margin: 0; /* Center the container horizontally */
+  position: relative; /* Needed for absolute positioning of the text */
+  padding-top: 100px;
+}
+
+.rf .header img {
+  width: 100%; /* Image takes full width of the container */
+  height: 300px; /* Set the image height */
+  object-fit: cover; /* Scales image to cover the container while maintaining aspect ratio */
+}
+
+.rf .header p {
+  margin-top: 50px;
+  position: absolute;
+  top: 50%;
+  margin-left: 250px;
+  transform: translate(
+    -50%,
+    -50%
+  ); /* Offset the text to counteract absolute positioning */
+  color: white; /* Text color (adjust as needed) */
+  font-weight: bold; /* Text weight (adjust as needed) */
+  text-align: center; /* Center align the text */
+  font-size: 48px;
+  font-family: "Poppins";
+  padding: 10px; /* Padding for the text (optional) */
+}

@@ -63,6 +63,8 @@
 // };
 
 // export default Home;
+import img1 from "../assets/img1.png";
+import img4 from "../assets/img4.png";
 
 import React, { useState, useEffect } from "react";
 import "../Styles/home.css";
@@ -113,20 +115,22 @@ const Home = () => {
       </div>
 
       <div className="second">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
-        optio, aliquam suscipit non quae laborum nihil tempora, sequi deleniti,
-        fugit magni placeat porro nam aliquid sunt repellat est ipsam
-        ullam.lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
-        quo atque similique doloribus soluta incidunt, sint error quasi
-        repudiandae harum placeat nobis ratione temporibus nam sunt nostrum
-        deleniti totam a. Lorem ipsum dolor, sit amet consectetur adipisicing
-        elit. Asperiores quis facilis accusantium ullam inventore at fugit atque
-        cumque sit. Iste temporibus modi, maxime ut ipsum quis fugit mollitia
-        non sunt odit, unde veniam rerum ipsa labore, eaque molestias facere rem
-        Ratione eum explicabo itaque labore ipsum qui? Ut nostrum Lorem ipsum
-        dolor sit amet consectetur adipisicing elit. Ab exercitationem doloribus
-        quia dolorum, suscipit dolorem dolores earum. Eligendi dignissimos
-        possimus, eos accusamus earum laboriosam unde aut quibusdam amet et ipsa
+        <p>
+          <img src={img1} alt="" className="img" />
+          <p>Human Centered Systems</p>
+        </p>
+        <p>
+          <i class="icon fa-solid fa-heart-pulse"></i>
+          <p>Healthcare</p>
+        </p>
+        <p>
+          <i class="icon fa-solid fa-lock "></i>
+          <p>Security</p>
+        </p>
+        <p>
+          <img src={img4} alt="" className="img" />
+          <p>Wearables</p>
+        </p>
       </div>
     </div>
   );
