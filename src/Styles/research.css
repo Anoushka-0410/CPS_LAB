@@ -31,8 +31,9 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
 
-  margin: 0 auto;
+  /* margin: 0 auto; */
   color: #752a65;
+  margin-bottom: 50px;
 }
 
 .flex-item {

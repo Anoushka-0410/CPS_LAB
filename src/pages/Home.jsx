@@ -65,6 +65,7 @@
 // export default Home;
 import img1 from "../assets/img1.png";
 import img4 from "../assets/img4.png";
+import apply1 from "../assets/apply1.png";
 
 import React, { useState, useEffect } from "react";
 import "../Styles/home.css";
@@ -115,22 +116,41 @@ const Home = () => {
       </div>
 
       <div className="second">
-        <p>
+        <p className="box">
           <img src={img1} alt="" className="img" />
           <p>Human Centered Systems</p>
         </p>
-        <p>
+        <div className="line"></div>
+        <p className="box">
           <i class="icon fa-solid fa-heart-pulse"></i>
           <p>Healthcare</p>
         </p>
-        <p>
+        <div className="line"></div>
+
+        <p className="box">
           <i class="icon fa-solid fa-lock "></i>
           <p>Security</p>
         </p>
-        <p>
+        <div className="line"></div>
+
+        <p className="box">
           <img src={img4} alt="" className="img" />
           <p>Wearables</p>
         </p>
+      </div>
+      <div className="apply">
+        <div className="app-img item">
+          <img src={apply1} alt="" />
+        </div>
+        <div className="app-txt item">
+          <h3>Apply for Research Internship</h3>
+          <span className="open">Applications are now open</span>
+          <span className="app-body">
+            We provide our interns experiences that enable them to develop
+            data-backed research aptitude towards new and exciting domains.
+          </span>
+          <button>Apply Now</button>
+        </div>
       </div>
     </div>
   );
