@@ -1,0 +1,56 @@
+.wrapper{
+    background-image: url("https://cps.iic.ac.in/wp-content/uploads/2021/08/contact_us_banner_2.jpg"); 
+    background-size: cover; 
+    background-position: center center; 
+    height: auto; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}   
+
+.text {
+    font-family: sans-serif;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.primary{
+    font-size: 70px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-align: center;
+    color: white;
+}
+
+.secondary{
+    font-size: 28px;
+    text-align: center;   
+    color: white; 
+}
+
+.location-boxes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    height: 550px;
+}
+
+/* .map{
+
+} */
+
+.info-box{
+    height: 100%;
+    width: 500px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+} 
+

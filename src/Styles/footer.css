@@ -61,6 +61,7 @@
 
 .list{  
     align-self: flex-start;
+    list-style-type: none;
 }
 
 .link{
