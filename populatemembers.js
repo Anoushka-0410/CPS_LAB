@@ -9,6 +9,8 @@ function csvToJson(csvFilePath, jsonFilePath) {
     .pipe(csv())
     .on('data', (data) => {
         delete data['S.no.'];
+        // data["Link"] = "https://drive.google.com/thumbnail?id=" + data["Link"].substr(32, 33);
+        data["Link"] = "https://drive.google.com/uc?export=view&id=" + data["Link"].substr(32, 33);
         results.push(data);
     })
     .on('end', () => {

@@ -5,7 +5,7 @@ import Home from "./pages/Home";
 import Research from "./pages/Research";
 import ContactUs from "./pages/ContactUs";
 import Footer from "./Components/Footer";
-import JoinUs from "./pages/JoinUs";
+import PresentMembers from "./pages/PresentMembers";
 
 function App() {
   return (

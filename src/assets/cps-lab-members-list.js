@@ -1,11 +1,11 @@
-[
+export default [
   {
     "Name": "Sanjeev Singh",
     "Category (cps.iic.ac.in)": "Faculty",
     "Category (cps.iic.ac.in) Designation": "Faculty",
     "(Image Caption)": "Professor",
     "Qualification/Designation (List Content)": "Ph.D., University of Delhi",
-    "Link": "https://drive.google.com/file/d/1-U3T15RkhZM4ZIAVZqyeSUILNwkbKP4Z/view?usp=drive_link",
+    "Link": "https://drive.google.com/uc?export=view&id=1-U3T15RkhZM4ZIAVZqyeSUILNwkbKP4Z",
     "Viewable Link": "<iframe src=\"https://drive.google.com/file/d/1-U3T15RkhZM4ZIAVZqyeSUILNwkbKP4Z/preview\" width=\"640\" height=\"480\" allow=\"autoplay\"></iframe>"
   },
   {
@@ -14,7 +14,7 @@
     "Category (cps.iic.ac.in) Designation": "Faculty",
     "(Image Caption)": "Assistant Professor",
     "Qualification/Designation (List Content)": "Ph.D., University of Delhi",
-    "Link": "https://drive.google.com/file/d/1ECGDU98QEDOo_VrU4vqwZIkQkKVPlA98/view?usp=drive_link",
+    "Link": "https://drive.google.com/uc?export=view&id=1ECGDU98QEDOo_VrU4vqwZIkQkKVPlA98",
     "Viewable Link": "<iframe src=\"https://drive.google.com/file/d/1ECGDU98QEDOo_VrU4vqwZIkQkKVPlA98/preview\" width=\"640\" height=\"480\" allow=\"autoplay\"></iframe>"
   },
   {
@@ -23,7 +23,7 @@
     "Category (cps.iic.ac.in) Designation": "Faculty",
     "(Image Caption)": "Associate Professor",
     "Qualification/Designation (List Content)": "Ph.D., University of Delhi",
-    "Link": "https://drive.google.com/file/d/13gI5-TaPHbf2TsJ6VAu863yoHrpOHPYJ/view?usp=drive_link",
+    "Link": "https://drive.google.com/uc?export=view&id=13gI5-TaPHbf2TsJ6VAu863yoHrpOHPYJ",
     "Viewable Link": "<iframe src=\"https://drive.google.com/file/d/13gI5-TaPHbf2TsJ6VAu863yoHrpOHPYJ/preview\" width=\"640\" height=\"480\" allow=\"autoplay\"></iframe>"
   },
   {
@@ -32,7 +32,7 @@
     "Category (cps.iic.ac.in) Designation": "Faculty",
     "(Image Caption)": "Associate Professor",
     "Qualification/Designation (List Content)": "Ph.D., University of Delhi",
-    "Link": "https://drive.google.com/file/d/1jbOJZLc2y660gF9q2piuAeZbk2mAdpUM/view?usp=drive_link",
+    "Link": "https://drive.google.com/uc?export=view&id=1jbOJZLc2y660gF9q2piuAeZbk2mAdpUM",
     "Viewable Link": "<iframe src=\"https://drive.google.com/file/d/1jbOJZLc2y660gF9q2piuAeZbk2mAdpUM/preview\" width=\"640\" height=\"480\" allow=\"autoplay\"></iframe>"
   },
   {
@@ -41,7 +41,7 @@
     "Category (cps.iic.ac.in) Designation": "Research Scholar",
     "(Image Caption)": "Research Scholar",
     "Qualification/Designation (List Content)": "M.Sc., University of Delhi",
-    "Link": "https://drive.google.com/file/d/1elPkK2-RNdym3CJaX5cvhbUwZi8BlbFm/view?usp=drive_link",
+    "Link": "https://drive.google.com/uc?export=view&id=1elPkK2-RNdym3CJaX5cvhbUwZi8BlbFm",
     "Viewable Link": "<iframe src=\"https://drive.google.com/file/d/1elPkK2-RNdym3CJaX5cvhbUwZi8BlbFm/preview\" width=\"640\" height=\"480\" allow=\"autoplay\"></iframe>"
   },
   {
@@ -50,7 +50,7 @@
     "Category (cps.iic.ac.in) Designation": "Research Scholar",
     "(Image Caption)": "Research Scholar",
     "Qualification/Designation (List Content)": "M.Sc., University of Delhi",
-    "Link": "https://drive.google.com/file/d/1WkGfjSEt-0MXLrVBppeAh_l9ePNIxBH7/view?usp=drive_link ",
+    "Link": "https://drive.google.com/uc?export=view&id=1WkGfjSEt-0MXLrVBppeAh_l9ePNIxBH7",
     "Viewable Link": "<iframe src=\"https://drive.google.com/file/d/1WkGfjSEt-0MXLrVBppeAh_l9ePNIxBH7/preview\" width=\"640\" height=\"480\" allow=\"autoplay\"></iframe>"
   },
   {
@@ -59,7 +59,7 @@
     "Category (cps.iic.ac.in) Designation": "Research Scholar",
     "(Image Caption)": "Research Scholar",
     "Qualification/Designation (List Content)": "M.Sc., University of Delhi",
-    "Link": "https://drive.google.com/file/d/1JTcqaDI1AxcZqtjgCMqO26uOeFSDr1Ks/view?usp=drive_link",
+    "Link": "https://drive.google.com/uc?export=view&id=1JTcqaDI1AxcZqtjgCMqO26uOeFSDr1Ks",
     "Viewable Link": "<iframe src=\"https://drive.google.com/file/d/1JTcqaDI1AxcZqtjgCMqO26uOeFSDr1Ks/preview\" width=\"640\" height=\"480\" allow=\"autoplay\"></iframe>"
   },
   {
@@ -68,7 +68,7 @@
     "Category (cps.iic.ac.in) Designation": "Research Scholar",
     "(Image Caption)": "Research Scholar",
     "Qualification/Designation (List Content)": "M.Sc., University Utara Malaysia",
-    "Link": "https://drive.google.com/file/d/1z2TgdXz-dWOL267YiUbBMtgR9RlMn1MC/view?usp=drive_link",
+    "Link": "https://drive.google.com/uc?export=view&id=1z2TgdXz-dWOL267YiUbBMtgR9RlMn1MC",
     "Viewable Link": "<iframe src=\"https://drive.google.com/file/d/1z2TgdXz-dWOL267YiUbBMtgR9RlMn1MC/preview\" width=\"640\" height=\"480\" allow=\"autoplay\"></iframe>"
   },
   {
@@ -77,7 +77,7 @@
     "Category (cps.iic.ac.in) Designation": "Research Scholar",
     "(Image Caption)": "Research Scholar",
     "Qualification/Designation (List Content)": "M.Sc., University of Delhi",
-    "Link": "https://drive.google.com/file/d/1aeSFmz6YrPX6Bi5XzdtSudyAJP41Yo5J/view?usp=drive_link",
+    "Link": "https://drive.google.com/uc?export=view&id=1aeSFmz6YrPX6Bi5XzdtSudyAJP41Yo5J",
     "Viewable Link": "<iframe src=\"https://drive.google.com/file/d/1aeSFmz6YrPX6Bi5XzdtSudyAJP41Yo5J/preview\" width=\"640\" height=\"480\" allow=\"autoplay\"></iframe>"
   },
   {
@@ -86,7 +86,7 @@
     "Category (cps.iic.ac.in) Designation": "Research Scholar",
     "(Image Caption)": "Research Scholar",
     "Qualification/Designation (List Content)": "M.Sc., University of Delhi",
-    "Link": "https://drive.google.com/file/d/1y937efcR82wTtlT5wmFOMKzMYlY3yuHo/view?usp=drive_link ",
+    "Link": "https://drive.google.com/uc?export=view&id=1y937efcR82wTtlT5wmFOMKzMYlY3yuHo",
     "Viewable Link": "<iframe src=\"https://drive.google.com/file/d/1y937efcR82wTtlT5wmFOMKzMYlY3yuHo/preview\" width=\"640\" height=\"480\" allow=\"autoplay\"></iframe>"
   },
   {
@@ -95,7 +95,7 @@
     "Category (cps.iic.ac.in) Designation": "Research Scholar",
     "(Image Caption)": "Research Scholar",
     "Qualification/Designation (List Content)": "M.Tech., BITS Pilani",
-    "Link": "https://drive.google.com/file/d/17X76ra4Y_VMq7qk_mPEd0ZnHgIfFDfDM/view?usp=drive_link",
+    "Link": "https://drive.google.com/uc?export=view&id=17X76ra4Y_VMq7qk_mPEd0ZnHgIfFDfDM",
     "Viewable Link": ""
   },
   {
@@ -104,7 +104,7 @@
     "Category (cps.iic.ac.in) Designation": "Research Scholar",
     "(Image Caption)": "Research Scholar",
     "Qualification/Designation (List Content)": "M.Tech., IIIT Allahabad",
-    "Link": "https://drive.google.com/file/d/1jG7ql2iyXr4IzFR-WkSt5usaHev-LJFz/view?usp=drive_link ",
+    "Link": "https://drive.google.com/uc?export=view&id=1jG7ql2iyXr4IzFR-WkSt5usaHev-LJFz",
     "Viewable Link": ""
   },
   {
@@ -113,7 +113,7 @@
     "Category (cps.iic.ac.in) Designation": "Research Scholar",
     "(Image Caption)": "Research Scholar",
     "Qualification/Designation (List Content)": "M.Sc., Murdoch University",
-    "Link": "https://drive.google.com/file/d/1HvANeat1f7gdsvr6DzpQM1kizt8bQuqD/view?usp=drive_link",
+    "Link": "https://drive.google.com/uc?export=view&id=1HvANeat1f7gdsvr6DzpQM1kizt8bQuqD",
     "Viewable Link": ""
   },
   {
@@ -122,7 +122,7 @@
     "Category (cps.iic.ac.in) Designation": "Assistant Professor",
     "(Image Caption)": "Assistant Professor",
     "Qualification/Designation (List Content)": "Ph.D., University of Delhi",
-    "Link": "https://drive.google.com/file/d/1h9TAUBPhS11wO-gdWnQtAxurHwQlnHCn/view?usp=drive_link",
+    "Link": "https://drive.google.com/uc?export=view&id=1h9TAUBPhS11wO-gdWnQtAxurHwQlnHCn",
     "Viewable Link": ""
   },
   {
@@ -131,7 +131,7 @@
     "Category (cps.iic.ac.in) Designation": "Assistant Professor",
     "(Image Caption)": "Assistant Professor",
     "Qualification/Designation (List Content)": "Ph.D., University of Delhi",
-    "Link": "https://drive.google.com/file/d/1P6zrvGsL9q5cC5-hNwKUlF-vb63Poxdh/view?usp=drive_link",
+    "Link": "https://drive.google.com/uc?export=view&id=1P6zrvGsL9q5cC5-hNwKUlF-vb63Poxdh",
     "Viewable Link": ""
   },
   {
@@ -140,7 +140,7 @@
     "Category (cps.iic.ac.in) Designation": "Assistant Professor",
     "(Image Caption)": "Assistant Professor",
     "Qualification/Designation (List Content)": "Ph.D., University of Delhi",
-    "Link": "https://drive.google.com/file/d/1avZ0oTJXwhpuW0uChx95Bx0uNbxD_v38/view?usp=drive_link",
+    "Link": "https://drive.google.com/uc?export=view&id=1avZ0oTJXwhpuW0uChx95Bx0uNbxD_v38",
     "Viewable Link": ""
   },
   {
@@ -149,7 +149,7 @@
     "Category (cps.iic.ac.in) Designation": "Research Intern",
     "(Image Caption)": "Research Intern",
     "Qualification/Designation (List Content)": "M.Sc., University of Delhi",
-    "Link": "https://drive.google.com/file/d/1dnNlAGWSe1Wgt9o90dndMrwBJ-QFD1Tz/view?usp=drive_link ",
+    "Link": "https://drive.google.com/uc?export=view&id=1dnNlAGWSe1Wgt9o90dndMrwBJ-QFD1Tz",
     "Viewable Link": ""
   },
   {
@@ -158,7 +158,7 @@
     "Category (cps.iic.ac.in) Designation": "Research Intern",
     "(Image Caption)": "Research Intern",
     "Qualification/Designation (List Content)": "M.Sc., University of Delhi",
-    "Link": "https://drive.google.com/file/d/11LLUSJcbizBbXjNYuUNHLTb6CH7xif-9/view?usp=drive_link ",
+    "Link": "https://drive.google.com/uc?export=view&id=11LLUSJcbizBbXjNYuUNHLTb6CH7xif-9",
     "Viewable Link": ""
   },
   {
@@ -167,7 +167,7 @@
     "Category (cps.iic.ac.in) Designation": "Research Intern",
     "(Image Caption)": "Research Intern",
     "Qualification/Designation (List Content)": "M.Sc., University of Delhi",
-    "Link": "https://drive.google.com/file/d/13W7I8m-28owRh-S7VoTayI-l2nuHbO2a/view?usp=drive_link ",
+    "Link": "https://drive.google.com/uc?export=view&id=13W7I8m-28owRh-S7VoTayI-l2nuHbO2a",
     "Viewable Link": ""
   },
   {
@@ -176,7 +176,7 @@
     "Category (cps.iic.ac.in) Designation": "Research Intern",
     "(Image Caption)": "Research Intern",
     "Qualification/Designation (List Content)": "M.Sc., University of Delhi",
-    "Link": "https://drive.google.com/file/d/1zZ9tFxSvtvMXNuS-Q70xQXWHb3x1Qltz/view?usp=drive_link ",
+    "Link": "https://drive.google.com/uc?export=view&id=1zZ9tFxSvtvMXNuS-Q70xQXWHb3x1Qltz",
     "Viewable Link": ""
   },
   {
@@ -185,7 +185,7 @@
     "Category (cps.iic.ac.in) Designation": "Research Intern",
     "(Image Caption)": "Research Intern",
     "Qualification/Designation (List Content)": "M.Sc., University of Delhi",
-    "Link": "https://drive.google.com/file/d/1ALD4mj7UXY3FFy_Hg1JOWijw6ea_FK-m/view?usp=drive_link ",
+    "Link": "https://drive.google.com/uc?export=view&id=1ALD4mj7UXY3FFy_Hg1JOWijw6ea_FK-m",
     "Viewable Link": ""
   },
   {
@@ -194,7 +194,7 @@
     "Category (cps.iic.ac.in) Designation": "Research Intern",
     "(Image Caption)": "Research Intern",
     "Qualification/Designation (List Content)": "M.Sc., University of Delhi",
-    "Link": "https://drive.google.com/file/d/1gyaOPZG5jyzViNWJ543_1C1PZL69WNez/view?usp=drive_link ",
+    "Link": "https://drive.google.com/uc?export=view&id=1gyaOPZG5jyzViNWJ543_1C1PZL69WNez",
     "Viewable Link": ""
   },
   {
@@ -203,7 +203,7 @@
     "Category (cps.iic.ac.in) Designation": "Research Intern",
     "(Image Caption)": "Research Intern",
     "Qualification/Designation (List Content)": "M.Sc., University of Delhi",
-    "Link": "https://drive.google.com/file/d/1dpr95gTMWjoLp8D7mlCHRcw8fNhB9HYz/view?usp=drive_link ",
+    "Link": "https://drive.google.com/uc?export=view&id=1dpr95gTMWjoLp8D7mlCHRcw8fNhB9HYz",
     "Viewable Link": ""
   },
   {
@@ -212,7 +212,7 @@
     "Category (cps.iic.ac.in) Designation": "Research Intern",
     "(Image Caption)": "Research Intern",
     "Qualification/Designation (List Content)": "M.Sc., University of Delhi",
-    "Link": "https://drive.google.com/file/d/1szbd252sih8tES9iZLs7wNnHNcn20gT3/view?usp=drive_link",
+    "Link": "https://drive.google.com/uc?export=view&id=1szbd252sih8tES9iZLs7wNnHNcn20gT3",
     "Viewable Link": ""
   },
   {
@@ -221,7 +221,7 @@
     "Category (cps.iic.ac.in) Designation": "Research Intern",
     "(Image Caption)": "Research Intern",
     "Qualification/Designation (List Content)": "M.Sc., University of Delhi",
-    "Link": "https://drive.google.com/file/d/1hlk0VqhQMFcSdWkgMDrTYso20jrG2q8o/view?usp=drive_link",
+    "Link": "https://drive.google.com/uc?export=view&id=1hlk0VqhQMFcSdWkgMDrTYso20jrG2q8o",
     "Viewable Link": ""
   },
   {
@@ -230,7 +230,7 @@
     "Category (cps.iic.ac.in) Designation": "Research Intern",
     "(Image Caption)": "Research Intern",
     "Qualification/Designation (List Content)": "M.Sc., University of Delhi",
-    "Link": "https://drive.google.com/file/d/1WP3i5mnhvc-oma9R1Br1pmTh0UfKrisI/view?usp=drive_link",
+    "Link": "https://drive.google.com/uc?export=view&id=1WP3i5mnhvc-oma9R1Br1pmTh0UfKrisI",
     "Viewable Link": ""
   },
   {
@@ -239,7 +239,7 @@
     "Category (cps.iic.ac.in) Designation": "Research Intern",
     "(Image Caption)": "Research Intern",
     "Qualification/Designation (List Content)": "B.Tech., University of Delhi",
-    "Link": "https://drive.google.com/file/d/1TnlX0Nuu26TqvsE6X0aTGr1PfkqkE3hk/view?usp=drive_link",
+    "Link": "https://drive.google.com/uc?export=view&id=1TnlX0Nuu26TqvsE6X0aTGr1PfkqkE3hk",
     "Viewable Link": ""
   },
   {
@@ -248,7 +248,7 @@
     "Category (cps.iic.ac.in) Designation": "Research Intern",
     "(Image Caption)": "Research Intern",
     "Qualification/Designation (List Content)": "B.Tech., DTU",
-    "Link": "https://drive.google.com/file/d/1TnlX0Nuu26TqvsE6X0aTGr1PfkqkE3hk/view?usp=drive_link",
+    "Link": "https://drive.google.com/uc?export=view&id=1TnlX0Nuu26TqvsE6X0aTGr1PfkqkE3hk",
     "Viewable Link": ""
   },
   {
@@ -257,7 +257,7 @@
     "Category (cps.iic.ac.in) Designation": "Research Intern",
     "(Image Caption)": "Research Intern",
     "Qualification/Designation (List Content)": "B.Tech., University of Delhi",
-    "Link": "https://drive.google.com/file/d/1l2JCwWWBu7QNB6ezgdWaBBFCuTSAV9iH/view?usp=drive_link",
+    "Link": "https://drive.google.com/uc?export=view&id=1l2JCwWWBu7QNB6ezgdWaBBFCuTSAV9iH",
     "Viewable Link": ""
   },
   {
@@ -266,7 +266,7 @@
     "Category (cps.iic.ac.in) Designation": "Research Intern",
     "(Image Caption)": "Research Intern",
     "Qualification/Designation (List Content)": "M.Sc., University of Delhi",
-    "Link": "https://drive.google.com/file/d/1ZNBjq0taY-fNSAsIoAbUF4e67h7KNqHe/view?usp=drive_link",
+    "Link": "https://drive.google.com/uc?export=view&id=1ZNBjq0taY-fNSAsIoAbUF4e67h7KNqHe",
     "Viewable Link": ""
   },
   {
@@ -275,7 +275,7 @@
     "Category (cps.iic.ac.in) Designation": "Research Intern",
     "(Image Caption)": "Research Intern",
     "Qualification/Designation (List Content)": "M.Sc., University of Delhi",
-    "Link": "https://drive.google.com/file/d/17VqBibWVue7e5j9qELAChXLJyr2treDM/view?usp=drive_link",
+    "Link": "https://drive.google.com/uc?export=view&id=17VqBibWVue7e5j9qELAChXLJyr2treDM",
     "Viewable Link": ""
   },
   {
@@ -284,7 +284,7 @@
     "Category (cps.iic.ac.in) Designation": "Research Intern",
     "(Image Caption)": "Research Intern",
     "Qualification/Designation (List Content)": "M.Sc., University of Delhi",
-    "Link": "https://drive.google.com/file/d/1LaFLnqox7weTDtA5Z7eAuKC3Fq4heGih/view?usp=drive_link",
+    "Link": "https://drive.google.com/uc?export=view&id=1LaFLnqox7weTDtA5Z7eAuKC3Fq4heGih",
     "Viewable Link": ""
   },
   {
@@ -293,7 +293,7 @@
     "Category (cps.iic.ac.in) Designation": "Research Intern",
     "(Image Caption)": "Research Intern",
     "Qualification/Designation (List Content)": "M.Sc., University of Delhi",
-    "Link": "https://drive.google.com/file/d/1HwCX3K_-MKVHdsYW1iifdNPqSL1Fv7CL/view?usp=drive_link",
+    "Link": "https://drive.google.com/uc?export=view&id=1HwCX3K_-MKVHdsYW1iifdNPqSL1Fv7CL",
     "Viewable Link": ""
   },
   {
@@ -302,7 +302,7 @@
     "Category (cps.iic.ac.in) Designation": "Research Intern",
     "(Image Caption)": "Research Intern",
     "Qualification/Designation (List Content)": "B.Tech., University of Delhi",
-    "Link": "https://drive.google.com/file/d/10Au_6MfMSZhqeWTwVZ7Kv6VD81xPrBf5/view?usp=drive_link",
+    "Link": "https://drive.google.com/uc?export=view&id=10Au_6MfMSZhqeWTwVZ7Kv6VD81xPrBf5",
     "Viewable Link": ""
   },
   {
@@ -311,7 +311,7 @@
     "Category (cps.iic.ac.in) Designation": "Research Intern",
     "(Image Caption)": "Research Intern",
     "Qualification/Designation (List Content)": "B.Tech., University of Delhi",
-    "Link": "https://drive.google.com/file/d/1koht5J_Ie3MNHaoX-e34zDB1wiCXqV03/view?usp=drive_link",
+    "Link": "https://drive.google.com/uc?export=view&id=1koht5J_Ie3MNHaoX-e34zDB1wiCXqV03",
     "Viewable Link": ""
   },
   {
@@ -320,7 +320,7 @@
     "Category (cps.iic.ac.in) Designation": "Research Intern",
     "(Image Caption)": "Research Intern",
     "Qualification/Designation (List Content)": "B.Tech., University of Delhi",
-    "Link": "https://drive.google.com/file/d/1S-jdVikqUky_3T2yYVJu2bwkSdQIAe8y/view?usp=drive_link",
+    "Link": "https://drive.google.com/uc?export=view&id=1S-jdVikqUky_3T2yYVJu2bwkSdQIAe8y",
     "Viewable Link": ""
   },
   {
@@ -329,7 +329,7 @@
     "Category (cps.iic.ac.in) Designation": "Research Intern",
     "(Image Caption)": "Research Intern",
     "Qualification/Designation (List Content)": "M.Sc., University of Delhi",
-    "Link": "https://drive.google.com/file/d/11a_ApW8s0GzAe5scAtr2GJTwy6HddATF/view?usp=drive_link",
+    "Link": "https://drive.google.com/uc?export=view&id=11a_ApW8s0GzAe5scAtr2GJTwy6HddATF",
     "Viewable Link": ""
   },
   {
@@ -338,7 +338,7 @@
     "Category (cps.iic.ac.in) Designation": "Research Intern",
     "(Image Caption)": "Research Intern",
     "Qualification/Designation (List Content)": "M.Sc., University of Delhi",
-    "Link": "https://drive.google.com/file/d/1vwiU72W1OaDTHE9xudeXbCq4bJ4ePY-m/view?usp=drive_link",
+    "Link": "https://drive.google.com/uc?export=view&id=1vwiU72W1OaDTHE9xudeXbCq4bJ4ePY-m",
     "Viewable Link": ""
   },
   {
@@ -347,7 +347,7 @@
     "Category (cps.iic.ac.in) Designation": "Research Intern",
     "(Image Caption)": "Research Intern",
     "Qualification/Designation (List Content)": "B.Tech., University of Delhi",
-    "Link": "https://drive.google.com/file/d/1vEaXjhLKt1sQwih25Hc2yTOqqgXAQTXT/view?usp=drive_link",
+    "Link": "https://drive.google.com/uc?export=view&id=1vEaXjhLKt1sQwih25Hc2yTOqqgXAQTXT",
     "Viewable Link": ""
   },
   {
@@ -356,7 +356,7 @@
     "Category (cps.iic.ac.in) Designation": "Intern",
     "(Image Caption)": "UI/UX Intern",
     "Qualification/Designation (List Content)": "B.com., APS University",
-    "Link": "",
+    "Link": "https://drive.google.com/uc?export=view&id=",
     "Viewable Link": ""
   }
 ]
