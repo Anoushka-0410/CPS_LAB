@@ -6,7 +6,7 @@ import Research from "./pages/Research";
 import ContactUs from "./pages/ContactUs";
 import Footer from "./Components/Footer";
 import PresentMembers from "./pages/PresentMembers";
-
+import JoinUs from "./pages/JoinUs";
 function App() {
   return (
     <div>
