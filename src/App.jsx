@@ -5,12 +5,14 @@ import Home from "./pages/Home";
 import Research from "./pages/Research";
 import ContactUs from "./pages/ContactUs";
 import Footer from "./Components/Footer";
+import JoinUs from "./pages/JoinUs";
 
 function App() {
   return (
     <div>
       <Navbar />
-      <Home />
+      {/* <Home /> */}
+      <JoinUs />
       {/* <ContactUs /> */}
       <Footer />
     </div>

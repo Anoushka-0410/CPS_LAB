@@ -203,21 +203,21 @@ const Home = () => {
           <h3>WORK WITH US</h3>
         </div>
         <div className="work-cards">
-          <div className="card" id="card1">
+          <a href="" className="card" id="card1">
             <div className="card-bg">
               <div className="card-txt">PhD Programme</div>
             </div>
-          </div>
-          <div className="card" id="card2">
+          </a>
+          <a href="" className="card" id="card2">
             <div className="card-bg">
               <div className="card-txt">Research Internship</div>
             </div>
-          </div>
-          <div className="card" id="card3">
+          </a>
+          <a href="" className="card" id="card3">
             <div className="card-bg">
               <div className="card-txt">Incubation</div>
             </div>
-          </div>
+          </a>
         </div>
       </div>
     </div>
