@@ -11,7 +11,8 @@ function App() {
   return (
     <div>
       <Navbar />
-      <PresentMembers />
+      <Home />
+      {/* <ContactUs /> */}
       <Footer />
     </div>
   );

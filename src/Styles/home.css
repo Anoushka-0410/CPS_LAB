@@ -185,7 +185,7 @@
   margin: 20px 60px 20px 50px;
 }
 
-button {
+.app-txt > button {
   height: 55px;
   width: 142px;
   padding: 12px 29px 17px 31px;
@@ -193,5 +193,216 @@ button {
   border-radius: 2px;
   color: #910052;
   font-size: 15px;
+  font-weight: 700;
+  border: none;
   /* font-family: "Poppins"; */
+}
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #910052;
+  width: 1349px;
+  height: 595px;
+}
+.about > img {
+  object-fit: contain;
+  margin-left: 40px;
+}
+
+.about-txt {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+
+.about-txt > h3 {
+  font-family: "Poppins";
+  font-size: 31px;
+  margin: 0px 20px 15px 20px;
+
+  /* position: relative; */
+}
+
+.about-intro {
+  font-family: "Poppins";
+  font-size: 23px;
+  font-weight: 600;
+  color: #dac0ce;
+  text-transform: none;
+  margin: 0px 20px 15px 20px;
+}
+
+.about-body {
+  font-family: "Poppins";
+  font-size: 19px;
+  color: #dac0ce;
+  font-weight: 500;
+  margin: 20px 20px 15px 20px;
+}
+.pink-board {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 147px;
+  border-radius: 3px;
+
+  background-color: #99066a;
+  font-family: "Poppins";
+}
+.box2 {
+  width: 25%;
+  height: 100%;
+}
+.inner-box {
+  margin: 20px 0px 0px 20px;
+}
+.even {
+  background-color: #7c0656;
+}
+.think {
+  height: 40px;
+  width: 36px;
+  margin: 40px 0px 0px 150px;
+}
+.sqr {
+  height: 40px;
+  width: 40px;
+  margin: 40px 0px 0px 160px;
+}
+
+.box2 > p {
+  color: white;
+  font-size: 21px;
+  font-weight: 700;
+  margin-left: 8.5rem;
+}
+
+.research-domain-wrapper {
+  background-color: #efefef;
+  height: auto;
+  width: 100%;
+}
+.research-domain-wrapper > h3 {
+  text-align: center;
+  padding: 30px 20px 30px 20px;
+  font-size: 41px;
+  font-family: "Poppins";
+  color: #161616;
+}
+
+.research-dashboard {
+  color: black;
+  display: flex;
+  margin: 2rem 2rem 2rem 2rem;
+}
+.tab-section {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f6f6f7;
+  height: 20%;
+  width: 100%;
+  flex-direction: row;
+  /* padding: 24px 40px 24px; */
+}
+.image-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-section > img {
+  /* object-fit: cover; */
+  max-width: 380px;
+  width: auto;
+  height: 446px;
+}
+.tab-section > button {
+  color: #8d8d8d;
+  background-color: #f6f6f7;
+  white-space: nowrap;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+  width: 100%;
+  font-family: "Poppins";
+  font-size: 17px;
+  font-weight: 700;
+  border: none;
+}
+
+.tab-section .active-tab {
+  background-color: #a0034c;
+  color: white;
+}
+.content-section {
+  padding: 5rem;
+  background-color: white;
+  margin-right: 20px;
+  width: 100%;
+  height: 80%;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 400;
+}
+.work-wrapper {
+  background-color: #a0034c;
+  width: 100%;
+  height: 30rem;
+}
+.work-heading {
+  text-align: center;
+  color: white;
+  font-family: "Poppins";
+  font-size: 41px;
+  margin: 30px 0px 50px 0px;
+}
+.work-cards {
+  width: auto;
+  display: flex;
+  margin: 20px 15px 20px 30px;
+}
+.card {
+  border-width: 1px 1px 1px 1px;
+  border-style: solid;
+  border-color: #636363;
+  font-family: "Poppins";
+  color: white;
+  height: 232px;
+  width: 426.66px;
+  /* background-color: rgba(57, 13, 40, 0.95); */
+
+  /* background-color: rgba(33, 0, 23, 0.9); */
+}
+#card1 {
+  background-image: url("https://cps.iic.ac.in/wp-content/uploads/2021/08/phd-programme.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#card2 {
+  background-image: url(https://cps.iic.ac.in/wp-content/uploads/2021/08/internship.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#card3 {
+  background-image: url(https://cps.iic.ac.in/wp-content/uploads/2021/08/project-fellowships.png);
+  background-size: cover;
+  background-position: center;
+}
+.card-txt {
+  padding-top: 6rem;
+  font-size: 30px;
+  font-family: "Poppins";
+  font-weight: 700;
+}
+.card-bg {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(57, 13, 40, 0.96);
+  text-align: center;
+  color: white;
+  z-index: 100;
 }
