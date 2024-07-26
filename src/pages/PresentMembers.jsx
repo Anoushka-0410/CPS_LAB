@@ -1,13 +1,14 @@
 import React from 'react';
 import MemberCard from '../Components/MemberCard';
 import members from '../assets/cps-lab-members-list';
-
+import '../Styles/presentmembers.css';
 
 function PresentMembers() {
     return (
         <div className='members-wrapper'>
             <p className="heading">Faculty Members</p>
-            <div className="member-list">\
+            <br />
+            <div className="member-list">
                 {
                     members.filter(member =>
                         member["Category (cps.iic.ac.in)"] !== "Past Lab Members" && member["Category (cps.iic.ac.in) Designation"] === "Faculty"
@@ -23,6 +24,7 @@ function PresentMembers() {
                 }
             </div>
             <p className="heading">Research Scholars</p>
+            <br />
             <div className="member-list">
                 {
                     members.filter(member => 
@@ -38,6 +40,7 @@ function PresentMembers() {
                 }
             </div>
             <p className="heading">Research Interns</p>
+            <br />
             <div className="member-list">
                 {
                     members.filter(member => 

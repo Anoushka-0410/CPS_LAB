@@ -1,4 +1,5 @@
 .members-wrapper{
+    padding-top: 5rem;
     height: auto;
     width: 100%;
     display: flex;
@@ -6,13 +7,20 @@
 }
 
 .member-list{
-    height: 500px;
-    width: 100%;
-    margin: 10%;
+    height: auto;
+    width: 100%; 
+    margin: 0.5rem; 
     display: flex;
-    flex-direction: row;
-    flex-flow: row;
+    flex-direction: row; 
+    flex-flow: row; 
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    justify-content: space-between;
+}
+
+.heading{
+    color: #a0034c;
+    font-size: 42px;
+    font-weight: 700;
+    margin-top: 3rem;
 }

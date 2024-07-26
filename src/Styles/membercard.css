@@ -1,16 +1,34 @@
 .member-card{
-    height: 550px;
-    width: 303px;
+    height: 25rem;
+    width: 20rem;
     padding: 10px;
-    margin: 10px;
+    margin: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border-width: 10px;
-    border-color: black;
+    border-bottom: 3px black solid;
 }
 
 .img {
-    height: 200px;
-    width: 100px;
+    align-self: center;
+    margin: 2rem;
+    height: 14rem;
+    width: 14rem;
+}
+
+p{
+    text-align: center;
+}
+
+.name{
+    color: #192f59;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.category{
+    margin-bottom: 1.2rem;
+    font-size: 15px;
+    font-weight: 550;
+    color: gray;
 }
