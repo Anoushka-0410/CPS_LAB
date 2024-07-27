@@ -1,24 +1,28 @@
-.nav {
+.navbar {
   display: flex;
   max-height: 15rem;
+  height: 6rem;
   position: fixed;
   z-index: 100;
   /* margin-left: auto; */
   margin-right: auto;
   width: 100%;
   justify-content: flex-start;
+  align-items: center;
   /* margin-top: 5px; */
   padding-left: 30px;
   background-color: white;
+  transition: all 0.3s ease;
 }
 .innav {
   display: flex;
   justify-content: center;
   width: 60%;
-  position: relative;
+  position: fixed;
+  margin-left: 10rem;
   align-items: center;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
   font-family: "Poppins", sans-serif;
   padding-left: 50px;
 }
@@ -37,13 +41,19 @@
   transition: width 0.3s;
 }
 
-.innav p:hover::after {
-  width: 100%;
-}
+/* .innav p:hover::after {
+  width: auto;
+  color: black;
+} */
 
-.nav > img {
+.navbar > img {
   height: 85px;
   width: 185px;
   left: 0;
   max-width: 1150px;
+  transition: all 0.3s ease;
+}
+.navbar.scrolled > img {
+  width: 100px;
+  height: 46px; /* Smaller size when scrolled */
 }
