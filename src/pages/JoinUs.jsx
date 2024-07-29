@@ -1,48 +1,84 @@
 import React from "react";
 import TitleCard from "../Components/TitleCard";
 import "../Styles/titlecard.css";
+import "../Styles/joinus.css";
 import img from "../assets/joinus.jpg";
-const title = "Apply To CPS Lab";
+import { faGoogleDrive } from "@fortawesome/free-brands-svg-icons/faGoogleDrive";
+
+const main_title = "Apply To CPS Lab";
+const steps_list = [
+  {
+    idx: "1",
+    title: "Fill Application Form",
+    desc: "Provide all the required details in the application form for the desired position.",
+  },
+  {
+    idx: "2",
+    title: "Scrutiny of the Application",
+    desc: "We shortlist the applications after thorough checks for the most suitable candidates.",
+  },
+  {
+    idx: "3",
+    title: "Complete Test / Assignment",
+    desc: "A test / assignment is given to you for your evaluation.",
+  },
+  {
+    idx: "4",
+    title: "Give the Interview",
+    desc: "The shortlisted candidates are asked to attend personal interviews",
+  },
+  {
+    idx: "5",
+    title: "Provide your documents",
+    desc: "The selected candidates have to provide proof documents for identity verification.",
+  },
+  {
+    idx: "6",
+    title: "Last Decision",
+    desc: "A final decision is made on the verified candidates and results are communicated",
+  },
+];
+const Joinsteps = (props) => {
+  const { idx, title, desc } = props;
+  return (
+    <div className="join-steps-comp">
+      <div className="step-idx">{idx}</div>
+      <div className="steps-details">
+        <h3 className="step-title">{title}</h3>
+        <div className="step-description">{desc}</div>
+      </div>
+    </div>
+  );
+};
+
 function JoinUs() {
   return (
-    <>
-      <TitleCard backgroundImage={img} title={title} />
-      <div>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero id, error
-        ducimus, sed corrupti sit laborum optio amet nemo ipsum quidem itaque ea
-        consequatur molestias quam sequi alias cumque esse! Blanditiis suscipit
-        soluta dolorum illum id ipsam. Commodi labore, ad veritatis numquam rem
-        officia quam ullam minus consequuntur voluptatibus at reiciendis ut
-        impedit voluptates aliquid soluta hic? Optio, porro quidem explicabo
-        dolorum nam esse fugiat, consectetur commodi temporibus ipsum dolores
-        dignissimos soluta? Asperiores a dolorem odio dolore nobis porro amet
-        veniam quod qui officiis? Sequi laborum aliquid enim odit veritatis
-        libero doloribus eos voluptatum architecto, blanditiis adipisci quae
-        natus ipsum, possimus, mollitia molestias saepe quo eveniet ipsam
-        consequuntur magni animi vitae ratione id. Harum voluptatibus
-        consequatur perspiciatis et blanditiis eveniet delectus, facilis sit!
-        Excepturi, vero. Quo pariatur deleniti tempore officiis numquam quis
-        minima dolorum libero nobis blanditiis doloribus sequi accusantium ad
-        incidunt assumenda eveniet, cum, tenetur tempora nemo at aperiam
-        consequuntur? Tenetur qui eligendi, obcaecati facere corrupti vel sit
-        fugit. Eligendi et nesciunt architecto a laudantium, commodi velit
-        impedit, tempore ab officia ut. Debitis eveniet blanditiis impedit sunt
-        velit iste est aliquam eius dolorem voluptate ratione quo autem,
-        accusantium inventore corrupti et dolores, sapiente reiciendis.
-        Voluptatibus aperiam eos saepe vitae quas, doloribus eligendi aliquid
-        totam unde. Alias at, quas culpa omnis ratione dignissimos impedit sunt
-        architecto voluptatum numquam obcaecati, explicabo nesciunt nemo nostrum
-        est aut ex. Expedita reiciendis asperiores delectus, molestiae odio
-        maxime voluptates quam doloremque adipisci ipsam quibusdam quasi magni
-        earum eaque impedit quaerat veniam quod neque. Mollitia veniam ipsa vel,
-        voluptatem incidunt iste quam. Velit dicta ex quibusdam, cumque libero,
-        facere officia similique, officiis voluptatibus cupiditate eos! Totam,
-        quisquam reprehenderit voluptates explicabo dolore autem facilis tenetur
-        eligendi doloribus, ipsam nulla atque debitis possimus eius vero,
-        voluptatum modi laborum quos. Officiis minima reiciendis neque sequi
-        nisi. Laborum, odio eveniet!
+    <div>
+      <TitleCard backgroundImage={img} title={main_title} />
+      <div className="join-wrapper">
+        <div className="ju-first">
+          <h3 className="ju-first-heading"> Apply for Research Internship</h3>
+          <div className="ju-first-details">
+            Applications are open for a 6-month internship for the 2024 batch of
+            interns. We help our interns develop data-backed research aptitude
+            toward new and exciting domains. Last date to apply is
+            <b> January 25, 2024.</b>
+          </div>
+          <div className="ju-first-stipend">
+            Selected candidates will receive a{" "}
+            <b>monthly stipend of INR 10000.</b>
+          </div>
+        </div>
+        <div className="ju-steps">
+          <h3 className="selection-heading">The Selection Process</h3>
+          <div className="steps-map">
+            {steps_list.map((steps) => {
+              return <Joinsteps {...steps} />;
+            })}
+          </div>
+        </div>
       </div>
-    </>
+    </div>
   );
 }
 export default JoinUs;
