@@ -98,7 +98,7 @@ const Home = () => {
 
       <div className="second">
         <div className="box">
-          <img src={img1} alt="" className="img" />#
+          <img src={img1} alt="" className="img" />
           <p>Human Centered Systems</p>
         </div>
         <div className="line"></div>

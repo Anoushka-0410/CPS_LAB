@@ -18,7 +18,8 @@ function Navbar() {
   });
 
   return (
-    <div className={`navbar ${isScrolled ? "scrolled" : ""}`}>
+    // <div className="nav-wrapper">
+    <div className={`navbar ${isScrolled ? "scrolled" : ""} `}>
       <img
         src="https://cps.iic.ac.in/wp-content/uploads/2022/05/cypsi_lab_logo-800x375.png"
         alt=""
@@ -38,14 +39,18 @@ function Navbar() {
         <Link to="presentmembers" className="nav-link">
           <div className="nav-element">People</div>
         </Link>
-        <Link to="joinus" className="nav-link">
+        <Link to="joinus" className="nav-link dropdown">
           <div className="nav-element">Join Us</div>
+          <div className="dropdown-content">
+            <div className="dropdown-link">Apply to CPS Lab</div>
+          </div>
         </Link>
         <Link to="contactus" className="nav-link">
           <div className="nav-element">Contact Us</div>
         </Link>
       </div>
     </div>
+    // </div>
   );
 }
 export default Navbar;

@@ -27,13 +27,15 @@
 .flex-container {
   display: flex;
   flex-direction: row;
-  position: relative;
+  /* position: relative; */
   flex-wrap: wrap;
   justify-content: space-evenly;
-
+  justify-items: center;
+  align-items: center;
+  max-width: 100rem;
   /* margin: 0 auto; */
   color: #752a65;
-  margin-bottom: 50px;
+  margin: 0 auto; /* to center it horizontally*/
 }
 
 .flex-item {

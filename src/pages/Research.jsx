@@ -16,21 +16,21 @@ function Research() {
         <div className="flex-item">
           <img src={rf2} alt="Image 1" />
           <div className="overtext">
-            <i class="fa fa-heartbeat"></i>
+            <i className="fa fa-heartbeat"></i>
             <h3>AI in Healthcare</h3>
           </div>
         </div>
         <div className="flex-item">
           <img src={rf3} alt="Image 2" />
           <div className="overtext">
-            <i class="fa fa-street-view"></i>
+            <i className="fa fa-street-view"></i>
             <h3>Human Centered Systems</h3>
           </div>
         </div>
         <div className="flex-item">
           <img src={rf4} alt="Image 3" />
           <div className="overtext">
-            <i class="fa fa-shield"></i>
+            <i className="fa fa-shield"></i>
             <h3>Cybersecurity</h3>
           </div>
         </div>

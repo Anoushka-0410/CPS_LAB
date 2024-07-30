@@ -53,7 +53,7 @@ const Joinsteps = (props) => {
 
 function JoinUs() {
   return (
-    <div>
+    <div className="ju-outer-wrapper">
       <TitleCard backgroundImage={img} title={main_title} />
       <div className="join-wrapper">
         <div className="ju-first">
