@@ -22,6 +22,7 @@ function Navbar() {
       <img
         src="https://cps.iic.ac.in/wp-content/uploads/2022/05/cypsi_lab_logo-800x375.png"
         alt=""
+        className="nav-img"
       />
       <div className="innav">
         <Link to="home" className="nav-link">
@@ -31,7 +32,7 @@ function Navbar() {
           <div className="nav-element">Research Focus</div>
         </Link>
         <Link to="publications" className="nav-link">
-          <div>Publications</div>
+          <div className="nav-element">Publications</div>
         </Link>
 
         <Link to="presentmembers" className="nav-link">
