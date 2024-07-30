@@ -24,22 +24,24 @@ function Navbar() {
         alt=""
       />
       <div className="innav">
-        <Link to="home">
-          <p>Home</p>
+        <Link to="home" className="nav-link">
+          <div className="nav-element">Home</div>
         </Link>
-        <Link to="research">
-          <p>Research Focus</p>
+        <Link to="research" className="nav-link">
+          <div className="nav-element">Research Focus</div>
         </Link>
-        <p>Publications</p>
+        <Link to="publications" className="nav-link">
+          <div>Publications</div>
+        </Link>
 
-        <Link to="presentmembers">
-          <p>People</p>
+        <Link to="presentmembers" className="nav-link">
+          <div className="nav-element">People</div>
         </Link>
-        <Link to="joinus">
-          <p>Join Us</p>
+        <Link to="joinus" className="nav-link">
+          <div className="nav-element">Join Us</div>
         </Link>
-        <Link to="contactus">
-          <p>Contact Us</p>
+        <Link to="contactus" className="nav-link">
+          <div className="nav-element">Contact Us</div>
         </Link>
       </div>
     </div>

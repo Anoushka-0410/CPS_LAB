@@ -17,9 +17,8 @@
 .innav {
   display: flex;
   justify-content: center;
-  width: 60%;
+  width: 100%;
   position: fixed;
-  margin-left: 10rem;
   align-items: center;
   font-size: 16px;
   font-weight: 600;
@@ -27,8 +26,12 @@
   padding-left: 50px;
 }
 
-.innav > p {
-  padding: 0 18px;
+.nav-element {
+  padding: 0 2rem;
+}
+.nav-link {
+  text-decoration: none;
+  color: black;
 }
 .innav p::after {
   content: "";
