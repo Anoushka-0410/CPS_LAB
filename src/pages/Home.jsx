@@ -173,8 +173,10 @@ const Home = () => {
           <p className="clb">Collaborate</p>
         </div>
       </div>
+
       <div className="research-domain-wrapper">
         <h3>RESEARCH DOMAINS</h3>
+
         <div className="research-dashboard">
           <div className="image-section">
             <img src={selectedData.img} alt="Image" />
