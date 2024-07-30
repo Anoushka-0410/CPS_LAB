@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import Research from "./pages/Research";
 import JoinUs from "./pages/JoinUs";
 import ContactUs from "./pages/ContactUs";
+import Publications from "./pages/Publications";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 
@@ -34,6 +35,10 @@ const navRouter = createBrowserRouter([
         path: "presentmembers",
         element: <PresentMembers />,
       },
+      {
+        path: 'publications',
+        element: <Publications />
+      }
     ],
   },
 ]);
