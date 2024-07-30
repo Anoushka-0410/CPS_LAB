@@ -1,4 +1,5 @@
 import "../Styles/navbar.css";
+import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -23,12 +24,23 @@ function Navbar() {
         alt=""
       />
       <div className="innav">
-        <p>Home</p>
-        <p>Research Focus</p>
+        <Link to="home">
+          <p>Home</p>
+        </Link>
+        <Link to="research">
+          <p>Research Focus</p>
+        </Link>
         <p>Publications</p>
-        <p>People</p>
-        <p>Join Us</p>
-        <p>Contact Us</p>
+
+        <Link to="presentmembers">
+          <p>People</p>
+        </Link>
+        <Link to="joinus">
+          <p>Join Us</p>
+        </Link>
+        <Link to="contactus">
+          <p>Contact Us</p>
+        </Link>
       </div>
     </div>
   );
