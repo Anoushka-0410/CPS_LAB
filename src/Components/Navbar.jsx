@@ -20,6 +20,7 @@ function Navbar() {
   return (
     // <div className="nav-wrapper">
     <div className={`navbar ${isScrolled ? "scrolled" : ""} `}>
+      {/* <div className="navbar-wrapper"> */}
       <img
         src="https://cps.iic.ac.in/wp-content/uploads/2022/05/cypsi_lab_logo-800x375.png"
         alt=""
@@ -36,11 +37,11 @@ function Navbar() {
           <div className="nav-element">Publications</div>
         </Link>
 
-        <Link to="presentmembers" className="nav-link">
+        <Link to="presentmembers" className="nav-link dropdown">
           <div className="nav-element">People</div>
           <div className="dropdown-content">
-            <div className="dropdown-link">Present Members</div>
-            {/* <div className="dropdown-link">Past Members</div> */}
+            <div className="dropdown-link">Present Lab Members</div>
+            <div className="dropdown-link">Past Lab Members</div>
           </div>
         </Link>
         <Link to="joinus" className="nav-link dropdown">

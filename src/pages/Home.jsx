@@ -6,16 +6,12 @@ import think from "../assets/think.png";
 import connect from "../assets/connect.png";
 import share from "../assets/share.png";
 import collab from "../assets/collab.png";
-import rd1 from "../assets/rd1.jpg";
-import rd2 from "../assets/rd2.jpg";
-import rd3 from "../assets/rd3.jpg";
-import rd4 from "../assets/rd4.jpg";
-import animation from "../../public/animation";
 
+import animation from "../../public/animation";
+import DomainSection from "../Components/DomainSection";
 import React, { useState, useEffect } from "react";
 import "../Styles/home.css";
 
-//animation script
 const images = [
   "//cps.iic.ac.in/wp-content/uploads/2022/04/WIN_20220416_15_50_59_Pro-100x50.jpg",
   "//cps.iic.ac.in/wp-content/uploads/2022/04/WIN_20220416_15_59_55_Pro-100x50.jpg",
@@ -23,40 +19,8 @@ const images = [
   // Add more images if needed
 ];
 
-const data_rd = [
-  {
-    id: 1,
-    img: rd1,
-    tabname: "Human Centered Systems",
-    content:
-      "Cyberization is all pervasive today with technology-driven engineering systems having a significant presence in almost all spheres of life. In fact, with each passing year, they are evolving at a very fast pace in terms of AI, computational capacities and their scope of use. \nWhile they offer numerous benefits to society on one hand, the current state of cyberization is creating an intellectual challenge to envision, design and research Human-Centered Systems for the future. Since human-centered systems integrate CPS with various social units - organizations, communities and distinctive social processes and practices; our lab envisions meeting the research challenges of making them more usable and sustainable.",
-  },
-  {
-    id: 2,
-    img: rd2,
-    tabname: "Healthcare",
-    content:
-      " The demand for remote healthcare is getting more crucial than ever even as CPSs are making spectacular advancements in this sector. It is piloting technologies and software to address challenging healthcare issues and revolutionizing how myriad healthcare issues are tackled. The CPS healthcare ecosystem has evolved in telemedicine, connected-health, mobile-health and intelligent health in the last two decades. Healthcare-Cyber Physical Systems (H-CPS) networks are available anywhere, anytime and to anyone with the means to digital access. Yet, they are to be rigorously explored and are a matter of high research interest.",
-  },
-  {
-    id: 3,
-    img: rd3,
-    tabname: "Cybersecurity",
-    content:
-      "CPSs are closely integrated physical processes for networking, computation, feedback loops and comprise several tiny devices with sensing, computing and wireless communication capabilities. These enhanced functionality, automation, and connectivity also bring significant cybersecurity challenges to the CPS. Moreover,  extensive connectivity makes CPS vulnerable to cyber threats and attacks, making safety, security and privacy essential research issues.",
-  },
-  {
-    id: 4,
-    img: rd4,
-    tabname: "Wearables",
-    content:
-      "The recent spectacular progress in Sensor technologies and allied materials, internet of Things (IoT), Informations and Technology (ICT) and microelectronic fabrication techniques have created a significant stimulus towards the development of smart wearable devices. As a result, this sector is witnessing an explosive growth offering huge market and research opportunities. \nWearable devices are complex systems of sensors and cross-domain communication networks handling large amounts of data with real-time decision-making capabilities. In addition, they provide continuous autonomous service over a long period. Therefore, rigorous research in computing and design technologies is required to adequately overcome these challenges to satisfy the stringent demands of wearable devices.",
-  },
-];
-
 const Home = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  const [selectedTab, setSelectedTab] = useState(1);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -69,11 +33,6 @@ const Home = () => {
   const changeImage = (index) => {
     setCurrentImageIndex(index);
   };
-  const handleTabClick = (id) => {
-    setSelectedTab(id);
-  };
-
-  const selectedData = data_rd.find((item) => item.id === selectedTab);
 
   return (
     <div className="home-container">
@@ -179,30 +138,11 @@ const Home = () => {
 
       <div className="research-domain-wrapper">
         <h3>RESEARCH DOMAINS</h3>
-
-        <div className="research-dashboard">
-          <div className="image-section">
-            <img src={selectedData.img} alt="Image" />
-          </div>
-          <div className="rd-inner-wrap">
-            <div className="tab-section">
-              {data_rd.map((item) => (
-                <button
-                  key={item.id}
-                  onClick={() => handleTabClick(item.id)}
-                  className={item.id === selectedTab ? "active-tab" : ""}
-                >
-                  {item.tabname}
-                </button>
-              ))}
-            </div>
-            <div className="content-section">
-              <p>{selectedData.content}</p>
-            </div>
-          </div>
-        </div>
+        <DomainSection />
       </div>
+
       {/* news and updates */}
+
       <div className="work-wrapper">
         <div className="work-heading">
           <h3>WORK WITH US</h3>
