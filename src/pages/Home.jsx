@@ -10,10 +10,12 @@ import rd1 from "../assets/rd1.jpg";
 import rd2 from "../assets/rd2.jpg";
 import rd3 from "../assets/rd3.jpg";
 import rd4 from "../assets/rd4.jpg";
+import animation from "../../public/animation";
 
 import React, { useState, useEffect } from "react";
 import "../Styles/home.css";
 
+//animation script
 const images = [
   "//cps.iic.ac.in/wp-content/uploads/2022/04/WIN_20220416_15_50_59_Pro-100x50.jpg",
   "//cps.iic.ac.in/wp-content/uploads/2022/04/WIN_20220416_15_59_55_Pro-100x50.jpg",
@@ -60,7 +62,7 @@ const Home = () => {
     const interval = setInterval(() => {
       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
     }, 3000); // Change image every 3 seconds
-
+    animation();
     return () => clearInterval(interval); // Cleanup interval on component unmount
   }, []);
 
@@ -101,20 +103,17 @@ const Home = () => {
           <img src={img1} alt="" className="img" />
           <p>Human Centered Systems</p>
         </div>
-        <div className="line"></div>
         <div className="box">
           <i class="icon fa-solid fa-heart-pulse"></i>
           <p>Healthcare</p>
         </div>
-        <div className="line"></div>
 
         <div className="box">
           <i class="icon fa-solid fa-lock "></i>
           <p>Security</p>
         </div>
-        <div className="line"></div>
 
-        <div className="box">
+        <div className="no-border-box">
           <img src={img4} alt="" className="img" />
           <p>Wearables</p>
         </div>
@@ -133,26 +132,30 @@ const Home = () => {
           <button>Apply Now</button>
         </div>
       </div>
-      <div className="about">
-        <img src={logo} alt="" />
-        <div className="about-txt">
-          <h3>About the Lab</h3>
-          <p className="about-intro">
-            The CyPSi Lab, established in 1999 at the Institute of Informatics
-            and Communication (IIC) of University of Delhi has contributed to a
-            wide range of domains from Educational Technologies, to scientific
-            research papers and to Cyber Physical Systems (CPS)
-          </p>
-          <p className="about-body">
-            The lab offers an opportunity to be at the forefront of Research and
-            Development (R & D) in Cyber Physical Systems (CPS) & allied
-            disciplines and collaborate with research groups worldwide to deal
-            with real life challenges. The research outcomes are further
-            developed by Product and Service groups thereby promoting
-            entrepreneurship and their delivery to intended audiences.
-          </p>
+      <div className="about-wrapper">
+        <div id="animation-light"></div>
+        <div className="about">
+          <img src={logo} alt="" />
+          <div className="about-txt">
+            <h3>About the Lab</h3>
+            <p className="about-intro">
+              The CyPSi Lab, established in 1999 at the Institute of Informatics
+              and Communication (IIC) of University of Delhi has contributed to
+              a wide range of domains from Educational Technologies, to
+              scientific research papers and to Cyber Physical Systems (CPS)
+            </p>
+            <p className="about-body">
+              The lab offers an opportunity to be at the forefront of Research
+              and Development (R & D) in Cyber Physical Systems (CPS) & allied
+              disciplines and collaborate with research groups worldwide to deal
+              with real life challenges. The research outcomes are further
+              developed by Product and Service groups thereby promoting
+              entrepreneurship and their delivery to intended audiences.
+            </p>
+          </div>
         </div>
       </div>
+
       <div className="pink-board">
         <div className="box2 odd">
           <img src={think} alt="" className="think" />

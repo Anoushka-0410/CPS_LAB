@@ -86,6 +86,6 @@
 .dropdown:hover .dropdown-content {
   display: block;
 }
-.dropdown-content:hover {
+.dropdown-link:hover {
   color: #a0034c;
 }

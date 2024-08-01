@@ -38,6 +38,10 @@ function Navbar() {
 
         <Link to="presentmembers" className="nav-link">
           <div className="nav-element">People</div>
+          <div className="dropdown-content">
+            <div className="dropdown-link">Present Members</div>
+            {/* <div className="dropdown-link">Past Members</div> */}
+          </div>
         </Link>
         <Link to="joinus" className="nav-link dropdown">
           <div className="nav-element">Join Us</div>
