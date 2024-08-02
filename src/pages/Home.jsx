@@ -6,7 +6,7 @@ import think from "../assets/think.png";
 import connect from "../assets/connect.png";
 import share from "../assets/share.png";
 import collab from "../assets/collab.png";
-
+import { Link } from "react-router-dom";
 import animation from "../../public/animation";
 import DomainSection from "../Components/DomainSection";
 import React, { useState, useEffect } from "react";
@@ -153,11 +153,11 @@ const Home = () => {
               <div className="card-txt">PhD Programme</div>
             </div>
           </a>
-          <a href="" className="card" id="card2">
+          <Link to="/joinus" className="card" id="card2">
             <div className="card-bg">
               <div className="card-txt">Research Internship</div>
             </div>
-          </a>
+          </Link>
           <a href="" className="card" id="card3">
             <div className="card-bg">
               <div className="card-txt">Incubation</div>

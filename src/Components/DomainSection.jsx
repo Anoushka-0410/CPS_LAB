@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import parse from "html-react-parser";
 
 import rd1 from "../assets/rd1.jpg";
 import rd2 from "../assets/rd2.jpg";
@@ -12,8 +13,8 @@ const data_rd = [
     id: 1,
     img: rd1,
     tabname: "Human Centered Systems",
-    content:
-      "Cyberization is all pervasive today with technology-driven engineering systems having a significant presence in almost all spheres of life. In fact, with each passing year, they are evolving at a very fast pace in terms of AI, computational capacities and their scope of use. \nWhile they offer numerous benefits to society on one hand, the current state of cyberization is creating an intellectual challenge to envision, design and research Human-Centered Systems for the future. Since human-centered systems integrate CPS with various social units - organizations, communities and distinctive social processes and practices; our lab envisions meeting the research challenges of making them more usable and sustainable.",
+    content: `<p>Cyberization is all pervasive today with technology-driven engineering systems having a significant presence in almost all spheres of life. In fact, with each passing year, they are evolving at a very fast pace in terms of AI, computational capacities and their scope of use. <br><br> While they offer numerous benefits to society on one hand, the current state of cyberization is creating an intellectual challenge to envision, design and research Human-Centered Systems for the future. Since human-centered systems integrate CPS with various social units - organizations, communities and distinctive social processes and practices; our lab envisions meeting the research challenges of making them more usable and sustainable.
+      </p>`,
   },
   {
     id: 2,
@@ -63,9 +64,7 @@ function DomainSection() {
             </button>
           ))}
         </div>
-        <div className="content-section">
-          <p>{selectedData.content}</p>
-        </div>
+        <div className="content-section">{parse(selectedData.content)}</div>
       </div>
     </div>
   );

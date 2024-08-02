@@ -98,7 +98,7 @@
   min-height: 0px;
   min-width: 0px;
   max-height: none;
-  max-width: 80rem;
+  max-width: none;
   opacity: 1;
   transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
   transform-origin: 50% 50% 0px;
