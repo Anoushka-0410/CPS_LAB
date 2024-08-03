@@ -7,6 +7,7 @@ import Research from "./pages/Research";
 import JoinUs from "./pages/JoinUs";
 import ContactUs from "./pages/ContactUs";
 import Publications from "./pages/Publications";
+import AIHealthcare from "./pages/AIHealthcare.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 
@@ -36,9 +37,13 @@ const navRouter = createBrowserRouter([
         element: <PresentMembers />,
       },
       {
-        path: 'publications',
-        element: <Publications />
-      }
+        path: "publications",
+        element: <Publications />,
+      },
+      {
+        path: "healthcare",
+        element: <AIHealthcare />,
+      },
     ],
   },
 ]);

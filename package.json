@@ -17,6 +17,8 @@
     "@fortawesome/react-fontawesome": "^0.2.2",
     "ag-grid-react": "^32.0.2",
     "html-react-parser": "^5.1.12",
+    "@tsparticles/all": "^3.5.0",
+    "@tsparticles/engine": "^3.5.0",
     "leaflet": "^1.9.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",

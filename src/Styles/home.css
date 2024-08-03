@@ -36,6 +36,7 @@
   visibility: visible;
   overflow: visible;
   margin-top: 80px;
+  max-width: 80rem;
 }
 
 .iic_name {
@@ -72,6 +73,7 @@
   visibility: visible;
   overflow: visible;
   margin-top: 150px;
+  max-width: 80rem;
 }
 .cps-name {
   z-index: 10;
@@ -105,12 +107,17 @@
 .second {
   background-color: white;
   width: 95%;
+  max-width: 80rem;
+
   display: flex;
   flex-direction: row;
   justify-content: center;
   height: 169px;
   border-radius: 3px;
   margin-top: 2px;
+  box-shadow: 0 -6px 24px rgba(10, 10, 10, 0.09);
+  font-size: 18px;
+  font-weight: 600;
 }
 .img {
   height: 80px;
@@ -126,17 +133,33 @@
   justify-content: center;
   align-items: center;
   width: 20rem;
+  border-width: 0px 3px 0px 0px;
+  border-color: #420018;
+  border-style: solid;
 }
 
+.no-border-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20rem;
+}
 .box > p {
   margin-left: 20px;
+  color: #192f59;
+  text-transform: none;
+}
+.no-border-box > p {
+  margin-left: 20px;
+  color: #192f59;
+  text-transform: none;
 }
 
-.line {
+/* .line {
   width: 2px;
   height: auto;
   background-color: black;
-}
+} */
 
 .apply {
   display: flex;
@@ -199,38 +222,74 @@
   border: none;
   /* font-family: "Poppins"; */
 }
+.about-wrapper {
+  width: 100%;
+  height: 35rem;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  /* margin: 0 auto; */
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+#animation-light canvas {
+  background-color: #232323;
+  /* background-color: black; */
+}
+#animation-light {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .about {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #910052;
-  width: 100%;
-  height: 595px;
+  /* width: 100%; */
+  max-width: 80rem;
+  margin: 0 auto;
+  /* height: 45rem; */
+  /* left: 50%; */
+  position: absolute;
+  left: 0;
+  right: 0;
 }
 .about > img {
   object-fit: contain;
   margin-left: 40px;
+  /* position: absolute;
+  left: 0; */
 }
 
 .about-txt {
   display: flex;
   flex-direction: column;
-  margin-left: 40px;
+  justify-content: center;
+  margin-left: 20px;
+  /* position: absolute; */
+  /* left: 35%; */
+  /* margin: 0 auto; */
 }
 
 .about-txt > h3 {
   font-family: "Poppins";
   font-size: 31px;
   margin: 0px 20px 15px 20px;
-
+  color: #db328f;
   /* position: relative; */
 }
 
 .about-intro {
   font-family: "Poppins";
   font-size: 23px;
-  font-weight: 600;
-  color: #dac0ce;
+  font-weight: 400;
+  color: #e5d3dd;
   text-transform: none;
   margin: 0px 20px 15px 20px;
 }
@@ -238,8 +297,8 @@
 .about-body {
   font-family: "Poppins";
   font-size: 19px;
-  color: #dac0ce;
-  font-weight: 500;
+  color: #ddcedd;
+  font-weight: 400;
   margin: 20px 20px 15px 20px;
 }
 .pink-board {
@@ -299,62 +358,6 @@
   color: #161616;
 }
 
-.research-dashboard {
-  color: black;
-  display: flex;
-  margin: 2rem 2rem 2rem 2rem;
-  justify-content: center;
-  max-width: 80rem;
-}
-.tab-section {
-  display: flex;
-  justify-content: space-around;
-  background-color: #f6f6f7;
-  height: 20%;
-  width: 100%;
-  flex-direction: row;
-  /* padding: 24px 40px 24px; */
-}
-.image-section {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.image-section > img {
-  /* object-fit: cover; */
-  max-width: 380px;
-  width: auto;
-  height: 446px;
-}
-.tab-section > button {
-  color: #8d8d8d;
-  background-color: #f6f6f7;
-  white-space: nowrap;
-  padding-left: 10px;
-  padding-right: 10px;
-  cursor: pointer;
-  width: 100%;
-  font-family: "Poppins";
-  font-size: 17px;
-  font-weight: 700;
-  border: none;
-}
-
-.tab-section .active-tab {
-  background-color: #a0034c;
-  color: white;
-}
-.content-section {
-  padding: 5rem;
-  background-color: white;
-  margin-right: 20px;
-  width: 100%;
-  height: 80%;
-  font-family: "Poppins";
-  font-size: 16px;
-  font-weight: 400;
-}
 .work-wrapper {
   background-color: #a0034c;
   width: 100%;

@@ -1,6 +1,6 @@
 import React from "react";
 import "../Styles/titlecard.css";
-function TitleCard(props) {
+function ResearchCardTitle(props) {
   const { title, backgroundImage } = props;
   return (
     <div className="title-wrapper">
@@ -15,4 +15,4 @@ function TitleCard(props) {
     </div>
   );
 }
-export default TitleCard;
+export default ResearchCardTitle;
