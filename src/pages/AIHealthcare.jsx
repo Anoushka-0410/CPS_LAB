@@ -14,7 +14,7 @@ function AIHealthcare() {
       <div className="health-content">
         <div className="health-section-1">
           <h3>About AI in Healthcare</h3>
-          <div className="section1-content health-common">{parse(aboutAI)}</div>
+          <div className="section1-content">{parse(aboutAI)}</div>
           <div className="line-divider"></div>
         </div>
         <div className="health-section-2">
@@ -24,7 +24,7 @@ function AIHealthcare() {
           systems and expert systems for medical professionals.
         </div>
         <div className="line-divider"></div>
-        <div className="health-section-3 health-common">
+        <div className="health-section-3">
           We aspire to develop AI based solutions for healthcare that are
           practically feasible for patients of all kinds and medical
           professionals from all domains. Through the expansive nature of Health
