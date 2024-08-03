@@ -62,9 +62,42 @@ function Publications() {
             autoSizeStrategy={autoSizeStrategy}
             suppressMovableColumns={true}
           />
+          <button onClick={() => {clickHandler(tableRef)}}>Export Results to JSON</button>
         </div>
     </div>
   )
+}
+
+
+const clickHandler = async tableRef => {
+  const data = [];
+  tableRef.current?.api.forEachNodeAfterFilterAndSort(node => {
+    // obj = {};
+    // obj['Publication'] = node.data["Publication"];
+    // obj["Year"] = node.data["Year"];
+    // obj["Keywords"] = node.data["Keywords"];
+    // obj["Author(s)"] = node.data["Author(s)"];
+    // obj["Publisher"] = node.data["Publisher"];
+    data.push(node.data);
+  });
+  const json = JSON.stringify(data, null, 2);
+  if('showSaveFilePicker' in window){
+    try {
+      const handle = await window.showSaveFilePicker({
+        suggestedName: 'data.json',
+        types: [{
+          description: 'JSON file',
+          accept: {'application/json': ['.json']}
+        }]
+      });
+      const writable = await handle.createWritable();
+      await writable.write(json);
+      await writable.close();
+      alert('Data saved succesfully!');
+    } catch (error) {
+      alert('File not saved');
+    }
+  }
 }
 
 export default Publications
