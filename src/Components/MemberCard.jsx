@@ -2,7 +2,6 @@ import React from 'react'
 import '../Styles/membercard.css';
 
 function MemberCard({name, qualification, image, category}) {
-    console.log(image);
     return (
         <div className='member-card'>
             <img className='img' src={`${image}`} /> 

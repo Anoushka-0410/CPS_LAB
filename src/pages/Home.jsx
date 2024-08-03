@@ -103,13 +103,13 @@ const Home = () => {
         </div>
         <div className="line"></div>
         <div className="box">
-          <i class="icon fa-solid fa-heart-pulse"></i>
+          <i className="icon fa-solid fa-heart-pulse"></i>
           <p>Healthcare</p>
         </div>
         <div className="line"></div>
 
         <div className="box">
-          <i class="icon fa-solid fa-lock "></i>
+          <i className="icon fa-solid fa-lock "></i>
           <p>Security</p>
         </div>
         <div className="line"></div>
