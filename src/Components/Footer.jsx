@@ -29,13 +29,13 @@ function Footer() {
                 <div className="foot-col-2">
                     <p className="list-heading">Useful Links</p>
                     <ul className='list'>
-                        {usefulLinks.map(link => <li className='link'>{link}</li>)}
+                        {usefulLinks.map((link, index) => <li className='link' key={index}>{link}</li>)}
                     </ul>
                 </div>
                 <div className="foot-col-3">
                     <p className="list-heading">External Resources</p>
                     <ul className="list">
-                        {resourceLinks.map(link => <li className='link'>{link}</li>)}
+                        {resourceLinks.map((link, index) => <li className='link' key={index}>{link}</li>)}
                     </ul>
                 </div>
             </div>

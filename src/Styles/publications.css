@@ -1,0 +1,21 @@
+.publications{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.table{
+    height: 900px;
+    width: 90%;
+    margin: 2rem;
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+
+.publication-cell{
+    font-weight: 750;
+
+}
+
