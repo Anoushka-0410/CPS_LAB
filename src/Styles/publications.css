@@ -7,15 +7,51 @@
 }
 
 .table{
-    height: 900px;
-    width: 90%;
-    margin: 2rem;
-    overflow-y: scroll;
-    overflow-x: scroll;
+    height: 1000px;
+    width: 100%;
+    max-width: 85rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.ag-theme-quartz{
+    --ag-wrapper-border-radius: 0px;
+    --ag-header-height: 50px;
+    --ag-header-foreground-color: white;
+    --ag-header-background-color: #A0034C;
+    --ag-header-cell-hover-background-color: rgba(135, 207, 235, 0.849);
+}
+
+.ag-theme-quartz .ag-header-group-cell {
+    font-weight: 900;
+    font-size: 90px;
+}
+
+.ag-row-odd{
+    background-color: rgb(245, 245, 245);
+}
+
+.ag-theme-quartz .ag-header {
+    font-size: 20px;
+}
+
+.ag-input-field-input{
+    color: black !important;
+    font-size: 15px !important;
 }
 
 .publication-cell{
+    font-size: 15px;
     font-weight: 750;
-
 }
 
+.publication-cell:hover{
+    color: #A0034C;
+    transition: 0.3s ease-in;
+}
+
+.keywords-cell, .authors-cell,  .publisher-cell {
+    color: grey;
+    font-weight: 400;
+    font-size: 15px;
+}
