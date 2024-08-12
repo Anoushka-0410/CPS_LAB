@@ -32,7 +32,7 @@ const card_list = [
     id: 3,
     img: rf4,
     icon: icon3,
-    path: "/cyber",
+    path: "/cybersecurity",
 
     title: "Cybersecurity",
   },
@@ -48,10 +48,6 @@ const card_list = [
 function Research() {
   return (
     <div className="rf">
-      {/* //   <div className="header">
-    //     <img src={rf1} alt="" />
-    //     <p>Research focus</p>
-    //   </div> */}
       <TitleCard backgroundImage={rf1} title={main_title} />
 
       <div className="flex-container">
@@ -62,34 +58,6 @@ function Research() {
             </Link>
           );
         })}
-        {/* <div className="flex-item">
-          <img src={rf2} alt="Image 1" />
-          <div className="overtext">
-            <i className="fa fa-heartbeat"></i>
-            <h3>AI in Healthcare</h3>
-          </div>
-        </div>
-        <div className="flex-item">
-          <img src={rf3} alt="Image 2" />
-          <div className="overtext">
-            <i className="fa fa-street-view"></i>
-            <h3>Human Centered Systems</h3>
-          </div>
-        </div>
-        <div className="flex-item">
-          <img src={rf4} alt="Image 3" />
-          <div className="overtext">
-            <i className="fa fa-shield"></i>
-            <h3>Cybersecurity</h3>
-          </div>
-        </div>
-        <div className="flex-item">
-          <img src={rf5} alt="Image 4" />
-          <div className="overtext">
-            <img src={icon4} alt="" />
-            <h3>Wearables</h3>
-          </div>
-        </div> */}
       </div>
     </div>
   );

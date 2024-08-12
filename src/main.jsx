@@ -8,6 +8,9 @@ import JoinUs from "./pages/JoinUs";
 import ContactUs from "./pages/ContactUs";
 import Publications from "./pages/Publications";
 import AIHealthcare from "./pages/AIHealthcare.jsx";
+import HumanCenteredSystems from "./pages/HumanCenteredSystems.jsx";
+import Cybersecurity from "./pages/Cybersecurity.jsx";
+import Wearables from "./pages/Wearables.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 
@@ -43,6 +46,18 @@ const navRouter = createBrowserRouter([
       {
         path: "healthcare",
         element: <AIHealthcare />,
+      },
+      {
+        path: "humansystems",
+        element: <HumanCenteredSystems />,
+      },
+      {
+        path: "cybersecurity",
+        element: <Cybersecurity />,
+      },
+      {
+        path: "wearables",
+        element: <Wearables />,
       },
     ],
   },

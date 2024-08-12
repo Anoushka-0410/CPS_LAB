@@ -1,13 +1,13 @@
-.healthcare-wrapper {
+.rf-card-wrapper {
   width: 100%;
 }
-.health-content {
+.rf-card-content {
   /* max-width: 80rem; */
   width: 80rem;
   margin: 0 auto;
   padding: 60px 25px 30px 25px;
 }
-.health-section-1 > h3 {
+.rf-card-section1 > h3 {
   padding-bottom: 30px;
   font-size: 27px;
   font-weight: 600;
@@ -24,14 +24,19 @@
   text-align: center;
   padding-top: 30px;
 }
-.health-section-2 {
+.rf-card-section2 {
   padding-top: 30px;
   font-size: 21px;
   color: #3a0135;
 }
-.health-section-3 {
+.rf-card-section3 {
   color: #6b6b6b;
   padding-top: 30px;
   padding-bottom: 40px;
   font-size: 17px;
+}
+@media (max-width: 1200px) {
+  .rf-card-content {
+    width: 90%;
+  }
 }

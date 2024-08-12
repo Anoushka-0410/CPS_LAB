@@ -18,6 +18,8 @@
   color: #752a65;
   margin: 0 auto; /* to center it horizontally*/
   padding-bottom: 3rem;
+  padding-top: 3rem;
+  gap: 3rem;
 }
 
 .fa {
