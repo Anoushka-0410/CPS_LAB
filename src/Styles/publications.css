@@ -14,6 +14,23 @@
     padding: 2rem;
 }
 
+button{
+    background-color: #A0034C;
+    margin: 1rem auto;
+    height: 2.8rem;
+    width: 15rem;
+    font-size: 1.1rem;
+    font-weight: 530;
+    color: white;
+    border-radius: 10px;
+    border-width: 0;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #6d0234;
+}
+
 .ag-theme-quartz{
     --ag-wrapper-border-radius: 0px;
     --ag-header-height: 50px;
