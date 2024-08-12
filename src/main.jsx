@@ -20,7 +20,8 @@ const navRouter = createBrowserRouter([
     element: <App />,
     children: [
       {
-        path: "home",
+        index: true,
+        //path: "home",
         element: <Home />,
       },
       {
