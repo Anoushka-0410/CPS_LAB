@@ -27,7 +27,7 @@ function Navbar() {
         className="nav-img"
       />
       <div className="innav">
-        <Link to="home" className="nav-link">
+        <Link to="/" className="nav-link">
           <div className="nav-element">Home</div>
         </Link>
         <Link to="research" className="nav-link">
