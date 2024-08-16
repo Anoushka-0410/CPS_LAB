@@ -1,74 +1,76 @@
-.publications{
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.publications {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.table{
-    height: 1000px;
-    width: 100%;
-    max-width: 85rem;
-    margin: 0 auto;
-    padding: 2rem;
+.table {
+  height: 1000px;
+  width: 100%;
+  max-width: 85rem;
+  margin: 0 auto;
+  padding: 2rem;
 }
 
-button{
-    background-color: #A0034C;
-    margin: 1rem auto;
-    height: 2.8rem;
-    width: 15rem;
-    font-size: 1.1rem;
-    font-weight: 530;
-    color: white;
-    border-radius: 10px;
-    border-width: 0;
-    cursor: pointer;
+.publication-button {
+  background-color: #a0034c;
+  margin: 1rem auto;
+  height: 2.8rem;
+  width: 15rem;
+  font-size: 1.1rem;
+  font-weight: 530;
+  color: white;
+  border-radius: 10px;
+  border-width: 0;
+  cursor: pointer;
 }
 
-button:hover{
-    background-color: #6d0234;
+.publication-button:hover {
+  background-color: #6d0234;
 }
 
-.ag-theme-quartz{
-    --ag-wrapper-border-radius: 0px;
-    --ag-header-height: 50px;
-    --ag-header-foreground-color: white;
-    --ag-header-background-color: #A0034C;
-    --ag-header-cell-hover-background-color: rgba(135, 207, 235, 0.849);
+.ag-theme-quartz {
+  --ag-wrapper-border-radius: 0px;
+  --ag-header-height: 50px;
+  --ag-header-foreground-color: white;
+  --ag-header-background-color: #a0034c;
+  --ag-header-cell-hover-background-color: rgba(135, 207, 235, 0.849);
 }
 
 .ag-theme-quartz .ag-header-group-cell {
-    font-weight: 900;
-    font-size: 90px;
+  font-weight: 900;
+  font-size: 90px;
 }
 
-.ag-row-odd{
-    background-color: rgb(245, 245, 245);
+.ag-row-odd {
+  background-color: rgb(245, 245, 245);
 }
 
 .ag-theme-quartz .ag-header {
-    font-size: 20px;
+  font-size: 20px;
 }
 
-.ag-input-field-input{
-    color: black !important;
-    font-size: 15px !important;
+.ag-input-field-input {
+  color: black !important;
+  font-size: 15px !important;
 }
 
-.publication-cell{
-    font-size: 15px;
-    font-weight: 750;
+.publication-cell {
+  font-size: 15px;
+  font-weight: 750;
 }
 
-.publication-cell:hover{
-    color: #A0034C;
-    transition: 0.3s ease-in;
+.publication-cell:hover {
+  color: #a0034c;
+  transition: 0.3s ease-in;
 }
 
-.keywords-cell, .authors-cell,  .publisher-cell {
-    color: grey;
-    font-weight: 400;
-    font-size: 15px;
+.keywords-cell,
+.authors-cell,
+.publisher-cell {
+  color: grey;
+  font-weight: 400;
+  font-size: 15px;
 }

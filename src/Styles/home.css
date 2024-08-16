@@ -210,7 +210,7 @@
   margin: 20px 60px 20px 50px;
 }
 
-.app-txt > button {
+.apply-button {
   height: 55px;
   width: 142px;
   padding: 12px 29px 17px 31px;
@@ -220,6 +220,7 @@
   font-size: 15px;
   font-weight: 700;
   border: none;
+  background-color: white;
   /* font-family: "Poppins"; */
 }
 .about-wrapper {

@@ -74,6 +74,7 @@ function Publications() {
         onClick={() => {
           clickHandler(tableRef);
         }}
+        className="publication-button"
       >
         Export Results to JSON
       </button>

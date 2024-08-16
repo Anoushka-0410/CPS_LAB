@@ -1,3 +1,11 @@
+import rf2 from "./rf2.jpg";
+import rf3 from "./rf3.jpg";
+import rf4 from "./rf4.jpg";
+import rf5 from "./rf5.jpg";
+import icon4 from "./rf6.png";
+import icon1 from "./heart-pulse-solid.svg";
+import icon2 from "./street-view-solid.svg";
+import icon3 from "./shield-solid.svg";
 const card_list = [
   {
     id: 1,

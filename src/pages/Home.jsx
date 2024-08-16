@@ -88,7 +88,9 @@ const Home = () => {
             We provide our interns experiences that enable them to develop
             data-backed research aptitude towards new and exciting domains.
           </span>
-          <button>Apply Now</button>
+          <Link to="/joinus" className="apply-button">
+            Apply Now
+          </Link>
         </div>
       </div>
       <div className="about-wrapper">

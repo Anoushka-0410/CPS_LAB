@@ -1,13 +1,6 @@
 import "../Styles/research.css";
 import rf1 from "../assets/rf1.jpg";
-import rf2 from "../assets/rf2.jpg";
-import rf3 from "../assets/rf3.jpg";
-import rf4 from "../assets/rf4.jpg";
-import rf5 from "../assets/rf5.jpg";
-import icon4 from "../assets/rf6.png";
-import icon1 from "../assets/heart-pulse-solid.svg";
-import icon2 from "../assets/street-view-solid.svg";
-import icon3 from "../assets/shield-solid.svg";
+
 import card_list from "../assets/ResearchFocusCardList";
 import TitleCard from "../Components/TitleCard";
 import ResearchCard from "../Components/ResearchCard";
