@@ -32,6 +32,7 @@
   height: 25rem;
   margin: 40px 30px 20px 40px;
   max-height: 25rem;
+  border-bottom: 3px solid #a0034c;
 }
 .selection-heading {
   font-weight: 700;
