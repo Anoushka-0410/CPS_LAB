@@ -42,3 +42,24 @@
 - It has an introduction section and a step-by-step instruction manual(the steps are mapped components).
 - Next section is an accordian displaying the problem domains in which an internship can be done.
 - The last section is about the important points to be noted.
+
+## 8) Contact Us (src/pages/ContactUs.jsx)
+
+- this page contains the location on a map (using react-leaftlet) and the contact details of the lab.
+- the map can be resized and zoomed in/out.
+
+## 9) PresentMembers (src/pages/PresentMembers.jsx)
+
+- this page contains a list of all the present members of the lab.
+- the members are displayed in a card format.
+- MemberCard component is used to display the details of each member.
+- Each section is split into a heading (denoting category) and the list of members in that category.
+
+## 10 Publications (src/pages/Publications.jsx)
+
+- this page contains the table of all the publications.
+- the table is made using ag-grid-react.
+- the table is sortable, filterable by columns and paginated.
+- these settings can be changed in the `columns` variable.
+- `publicationsData` is used as data source. Contents within it can be easily modified.
+- The button below the table is used to download current entries in the table to JSON format.
