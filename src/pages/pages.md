@@ -1,4 +1,4 @@
-# Documentation for Pages
+# Documentation for Pages: src/pages
 
 ## 1) Home (src/pages/Home.jsx)
 
