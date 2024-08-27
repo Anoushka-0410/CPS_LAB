@@ -1,70 +1,69 @@
-.wrapper{
-    background-image: url("https://cps.iic.ac.in/wp-content/uploads/2021/08/contact_us_banner_2.jpg"); 
-    background-size: cover; 
-    background-position: center top; 
-    background-attachment: fixed;
-    transition: background-position 0.2s ease;
-    height: auto; 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 50px;
-}   
+.wrapper {
+  /*background-image: url("https://cps.iic.ac.in/wp-content/uploads/2021/08/contact_us_banner_2.jpg");*/
+  background-color: #eee;
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+  transition: background-position 0.2s ease;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+}
 
 .text {
-    margin-top: 120px;
-    margin-bottom: 50px;
-    text-align: center;
+  margin-top: 120px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #a0034c;
 }
 
-.primary{
-    font-family: sans-serif;
-    font-size: 70px;
-    font-weight: 600;
-    margin-bottom: 15px;
-    text-align: center;
-    color: white;
+.primary {
+  font-family: sans-serif;
+  font-size: 70px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  text-align: center;
 }
 
-.secondary{
-    font-family: sans-serif;
-    font-size: 28px;
-    text-align: center;   
-    color: white; 
+.secondary {
+  font-family: sans-serif;
+  font-size: 28px;
+  text-align: center;
 }
 
-.location-boxes{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    height: 550px;
+.location-boxes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  height: 550px;
 }
 
-.map-box{
-    border: 2px solid black;
-    height: 100%;
-    width: 500px;
-    margin: 10px;
-    z-index: 1;
+.map-box {
+  border: 2px solid black;
+  height: 100%;
+  width: 500px;
+  margin: 10px;
+  z-index: 1;
 }
 
-.map{
-    height: 100%;
-    width:100%;
-    overflow: hidden;
+.map {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
 }
 
-.info-box{
-    height: 100%;
-    width: 500px;
-    padding: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    margin: 10px;
-    background-color: rgba(0, 0, 0, 0.4);
-} 
-
+.info-box {
+  height: 100%;
+  width: 500px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin: 10px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
