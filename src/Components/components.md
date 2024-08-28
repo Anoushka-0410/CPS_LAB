@@ -23,3 +23,15 @@
 
 - this reusable card component is used to to represent a member in the PresentMembers page.
 - it contains the name, qualification, image and category of the member as props.
+
+## 5) src/Components/ResearchCard
+
+- this card is used for mapping subpages of the page Research Focus.
+- it contains an image, title text and an icon.
+
+## 6) src/Components/ResearchTitleCard
+
+- this card is for the title cards of the subpages of Research Focus page.
+- it contains a background image and title.
+
+## 7)

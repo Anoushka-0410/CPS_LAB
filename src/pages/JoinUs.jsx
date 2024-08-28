@@ -1,11 +1,24 @@
 import React from "react";
+import { useState } from "react";
 import TitleCard from "../Components/TitleCard";
+import accordionData from "../joinUsAccordianData";
 import "../Styles/titlecard.css";
 import "../Styles/joinus.css";
 import img from "../assets/joinus.jpg";
+import double_arrow_icon from "../assets/double-right-svgrepo-com.svg";
+import AccordionItem from "../Components/AccordionItem";
 import { faGoogleDrive } from "@fortawesome/free-brands-svg-icons/faGoogleDrive";
 import steps_list from "../assets/JoinUsSteps";
 const main_title = "Apply To CPS Lab";
+
+const imp_points = [
+  "Applications for internships are accepted throughout the year.",
+  "The selection of interns is dynamic and based on the current research needs of the lab.",
+  "We accept Undergraduate and Postgraduate students as well as Research Scholars for internships.",
+  "No TA/DA shall be paid to the candidates.",
+  "A minimum attendance of 100 days in the lab is mandatory.",
+  "To apply for an internship in our lab, fill out the following form.",
+];
 
 const Joinsteps = (props) => {
   const { idx, title, desc } = props;
@@ -21,6 +34,11 @@ const Joinsteps = (props) => {
 };
 
 function JoinUs() {
+  const [activeIndex, setActiveIndex] = useState(null);
+
+  const handleToggle = (index) => {
+    setActiveIndex(activeIndex === index ? null : index);
+  };
   return (
     <div className="ju-outer-wrapper">
       <TitleCard backgroundImage={img} title={main_title} />
@@ -43,6 +61,31 @@ function JoinUs() {
           <div className="steps-map">
             {steps_list.map((steps) => {
               return <Joinsteps {...steps} />;
+            })}
+          </div>
+        </div>
+        <div className="problem-domains">
+          <h3>Problem Domains</h3>
+          <div className="accordion">
+            {accordionData.map((item, index) => (
+              <AccordionItem
+                key={index}
+                title={item.title}
+                content={item.content}
+              />
+            ))}
+          </div>
+        </div>
+        <div className="important-points">
+          <h3>Important Points</h3>
+          <div className="imp-pts-list">
+            {imp_points.map((point) => {
+              return (
+                <div className="list-wrapper">
+                  <img src={double_arrow_icon} className="arrow-icon"></img>
+                  <p className="point">{point}</p>
+                </div>
+              );
             })}
           </div>
         </div>

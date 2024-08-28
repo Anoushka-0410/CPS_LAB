@@ -1,5 +1,6 @@
 import img1 from "../assets/img1.png";
 import img4 from "../assets/img4.png";
+import lab_1 from "../assets/lab_photo_1.jpg";
 import apply1 from "../assets/apply1.png";
 import logo from "../assets/logo.png";
 import think from "../assets/think.png";
@@ -13,7 +14,7 @@ import React, { useState, useEffect } from "react";
 import "../Styles/home.css";
 
 const images = [
-  "//cps.iic.ac.in/wp-content/uploads/2022/04/WIN_20220416_15_50_59_Pro-100x50.jpg",
+  lab_1,
   "//cps.iic.ac.in/wp-content/uploads/2022/04/WIN_20220416_15_59_55_Pro-100x50.jpg",
   "//cps.iic.ac.in/wp-content/uploads/2023/10/1-11-of-11-100x50.jpg",
   // Add more images if needed
