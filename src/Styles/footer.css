@@ -1,73 +1,91 @@
-.footer{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    max-height: 440px;
-    font-family: sans-serif;
-    z-index: 100;
+.footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-height: 500px;
+  font-family: sans-serif;
+  z-index: 100;
 }
 
-.copyright{
-    height: 92px;
-    background-color: #202020;
-    padding: 40px;
-    color: gray;
+.copyright {
+  height: 92px;
+  background-color: #202020;
+  padding: 40px;
+  color: gray;
 }
 
-.links{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    background-color: black;
-    color: gray;
-    width: 100%;
-    height: 400px;
-    margin-top: 10px;
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: black;
+  color: gray;
+  width: 100%;
+  height: 400px;
+  margin-top: 10px;
 }
 
-.logo-container{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-self: flex-start;
-    margin-bottom: 50px;
+.logo-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-self: flex-start;
+  margin-bottom: 50px;
 }
 
 .foot-col-1 > p {
-    margin: 5px;
+  margin: 5px;
 }
 
-.logo{
-    display: block;
-    object-fit: contain;
-    max-width: 134px;
-    max-height: 79px;
-    margin-bottom: 2rem;
+.logo {
+  display: block;
+  object-fit: contain;
+  max-width: 134px;
+  max-height: 79px;
+  margin-bottom: 2rem;
 }
 
-.list-heading{
-    font-size: 25px;
-    font-weight: bold;
-    color: white;
-    margin-bottom: 20px;
-    padding: 1.5rem;
-    border-bottom: 2px red solid;
+.list-heading {
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px;
+  padding: 1.5rem;
+  border-bottom: 2px #a0034c solid;
 }
 
-.foot-col-1, .foot-col-2, .foot-col-3{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    margin-top: 2.5rem;
-    justify-content: flex-start;
+.foot-col-1,
+.foot-col-2,
+.foot-col-3 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin-top: 2.5rem;
+  justify-content: flex-start;
 }
 
-.list{  
-    align-self: flex-start;
-    list-style-type: none;
+.list {
+  align-self: flex-start;
+  list-style-type: none;
 }
 
-.link{
-    margin: 10px;
+.link {
+  margin: 10px;
 }
 
+.socials-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.social {
+  height: 1.5rem;
+  width: 1.5rem;
+  filter: invert(1);
+}
+
+.social:hover {
+  height: 1.7rem;
+  width: 1.7rem;
+}
