@@ -29,6 +29,7 @@
   position: fixed;
   align-items: center;
   font-size: 16px;
+
   font-weight: 500;
   font-family: "Poppins", sans-serif;
   padding-left: 50px;
@@ -39,17 +40,40 @@
   height: 6rem;
   display: flex;
   align-items: center;
+  position: relative;
+  margin-left: 10px;
 }
 .nav-link {
   text-decoration: none;
   color: black;
 }
-.innav .nav-element:hover {
-  border-bottom: 5px solid;
-  border-color: #a0034c;
-  color: #a0034c;
+/* .nav-element::after {
+  content: "";
+  position: absolute;
+  background: #a0034c;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  opacity: 0;
+  bottom: -1px;
 }
 
+.nav-element:hover::after,
+.nav-element:focus::after {
+  opacity: 1;
+} */
+.nav-element.active,
+.nav-element:hover {
+  border-bottom: 4px solid #a0034c;
+  color: #a0034c;
+}
+.navbar.scrolled .nav-element.active {
+  border-bottom: 4px solid #a0034c;
+  color: #a0034c;
+}
+/* .nav-element:hover {
+  color: #a0034c;
+} */
 /* .innav p:hover::after {
   width: auto;
   color: black;
@@ -58,15 +82,31 @@
 .nav-img {
   height: 85px;
   width: 185px;
-  margin-left: 2rem;
+  margin-left: 1rem;
+  margin-right: 8rem;
   /* left: 0; */
   max-width: 1150px;
   transition: all 0.3s ease;
+  /* position: relative; */
 }
+
+/* @media (min-width: 1430px) {
+  .innav {
+    justify-content: center;
+    padding-right: 4em;
+  }
+  .nav-img {
+    margin-right: 4rem;
+  }
+} */
 .navbar.scrolled > img {
   width: 100px;
   height: 46px; /* Smaller size when scrolled */
 }
+.navbar.scrolled {
+  height: 5rem;
+}
+
 .dropdown {
   position: relative;
   display: inline-block;
@@ -75,7 +115,7 @@
 
 .dropdown-content {
   display: none;
-
+  margin-top: 0.1em;
   position: absolute;
   color: #585858;
   min-width: 160px;
@@ -84,6 +124,7 @@
   z-index: 1;
   font-size: 14px;
   background-color: #e6e6e6;
+  transition: opacity 0.3s ease;
 }
 .dropdown-link {
   padding: 0.5rem 0.5rem 0.5rem 0.5rem;

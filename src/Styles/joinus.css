@@ -79,6 +79,10 @@
   border-bottom: 3px solid #a0034c;
 }
 
+.problem-domains > h3 {
+  margin-bottom: 2em;
+}
+
 .accordion-item {
   margin-bottom: 10px;
   text-align: left;
