@@ -6,6 +6,7 @@ import "../Styles/titlecard.css";
 import "../Styles/joinus.css";
 import img from "../assets/joinus.jpg";
 import double_arrow_icon from "../assets/double-right-svgrepo-com.svg";
+import right_arrow from "../assets/right-arrow-svgrepo-com.svg";
 import AccordionItem from "../Components/AccordionItem";
 import { faGoogleDrive } from "@fortawesome/free-brands-svg-icons/faGoogleDrive";
 import steps_list from "../assets/JoinUsSteps";
@@ -35,6 +36,7 @@ const Joinsteps = (props) => {
 
 function JoinUs() {
   const [activeIndex, setActiveIndex] = useState(null);
+  const [hovered, setHovered] = useState(null);
 
   const handleToggle = (index) => {
     setActiveIndex(activeIndex === index ? null : index);
@@ -79,10 +81,17 @@ function JoinUs() {
         <div className="important-points">
           <h3>Important Points</h3>
           <div className="imp-pts-list">
-            {imp_points.map((point) => {
+            {imp_points.map((point, index) => {
               return (
-                <div className="list-wrapper">
-                  <img src={double_arrow_icon} className="arrow-icon"></img>
+                <div
+                  className="list-wrapper"
+                  onMouseEnter={() => setHovered(index)}
+                  onMouseLeave={() => setHovered(null)}
+                >
+                  <img
+                    src={hovered === index ? right_arrow : double_arrow_icon}
+                    className="arrow-icon"
+                  ></img>
                   <p className="point">{point}</p>
                 </div>
               );
