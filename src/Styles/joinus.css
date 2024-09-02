@@ -149,6 +149,7 @@
 }
 .point {
   padding-bottom: 10px;
+  color: #6b6b6b;
 }
 
 .arrow-icon {
@@ -156,4 +157,23 @@
   height: 1em;
   margin-right: 10px;
   margin-bottom: 10px;
+}
+
+.form-button {
+  border-radius: 30px;
+  cursor: pointer;
+  border-style: none;
+  background-color: #a0034c;
+  width: 15em;
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  height: 4em;
+  margin-bottom: 3em;
+}
+
+.button-container {
+  width: 100%;
+  padding-left: 2em;
 }

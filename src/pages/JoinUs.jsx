@@ -98,6 +98,9 @@ function JoinUs() {
             })}
           </div>
         </div>
+        <div className="button-container">
+          <button className="form-button">Fill Application Form</button>
+        </div>
       </div>
     </div>
   );
