@@ -35,7 +35,6 @@ function Navbar() {
         setIsScrolled(false);
       }
     };
-    console.log(isScrolled);
 
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
