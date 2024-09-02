@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import TitleCard from "../Components/TitleCard";
-import accordionData from "../joinUsAccordianData";
+import accordionData from "../assets/joinUsAccordianData";
 import "../Styles/titlecard.css";
 import "../Styles/joinus.css";
 import img from "../assets/joinus.jpg";
